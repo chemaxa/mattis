@@ -1,0 +1,200 @@
+@import _theme.sass
+/*Main styles*/
+*,
+*:after,
+*:before
+	box-sizing: border-box
+html
+	font-size: 13px //For rems
+body
+	line-height: 1.42
+	font-family: 'Roboto', sans-serif
+	color: $text-color
+h1
+	color: #3b3b3b
+	font-size: 2rem
+
+/*Services*/
+.inline-block
+	display: inline-block
+	vertical-align: top
+.content-wrapper
+		width: 960px
+		margin: 0 auto	
+.clearfix:after
+	content: " "
+	visibility: hidden
+	display: block
+	height: 0
+	clear: both
+
+/*Blocks */
+.link
+	color: #3b66a3
+
+/*Blocks Header*/
+.page-header
+	background: url(../img/top_city.png) no-repeat center top
+	padding-top: 20px
+
+.logo,.phone,.consultant
+	@extend .inline-block
+
+.phone
+	padding: 10px 5px
+	margin-left: 40px
+	border-left: 2px solid $lighten-gray
+	&__description
+		font-size: 0.85rem
+		color: #797979
+		font-weight: 600
+
+	&__number
+		font-size: 1.54rem
+		color: #484848
+		font-weight: 600
+
+.consultant
+	margin-left: 40px
+
+.consultant-logo
+	@extend .inline-block
+
+.consultant-description
+	@extend .inline-block
+	vertical-align: middle
+	color: $green
+	font-size: 1.23rem
+	font-weight: 600
+	
+/*Top menu*/
+.menu_top
+	background-color: $gray
+	border-bottom: 4px solid $light-gray
+	margin-top: 25px
+
+.menu-list
+	@extend .content-wrapper
+	padding: 0
+	
+.menu-list_top	
+	display: table
+	margin-bottom: -4px
+
+.link_menu-top
+	padding: 15px 30px
+	color: #fff
+	display: block
+	text-align: center
+	text-decoration: none
+	font-size: 1.15rem
+
+	&:hover
+		background-color: $middle-gray
+
+.link_menu-new-building
+	border-bottom: 4px solid $blue
+	&:hover
+		background-color: $blue
+.link_menu-resale-building
+	border-bottom: 4px solid $orange
+	&:hover
+		background-color: $orange
+.link_menu-rent-building
+	border-bottom: 4px solid $yellow
+	&:hover
+		background-color: $yellow	
+.link_menu-cottage-building
+	border-bottom: 4px solid $light-green
+	&:hover
+		background-color: $light-green
+
+
+.menu-list__item_menu-top
+	display: table-cell
+	border-right: 1px solid #707070
+	&:last-child
+		border-right: none
+
+
+/*Slider*/		
+.slider
+	border-top: 1px solid #fff
+	position: relative
+.slider-list
+	z-index: -1
+	position: relative
+.slider-list__item
+	height: 410px
+	overflow: hidden
+	width: 100%
+
+.slider__pagination
+	position: absolute
+	bottom: 25px
+	right: 50%
+	&>span
+		display: inline-block
+		position: relative
+		width: 10px
+		height: 10px
+		margin-right: 7px
+		z-index: 1
+		background: $green
+		border: 1px solid #fff
+		border-radius: 15px
+		cursor: pointer
+	&>span.cycle-pager-active		
+		background: #fff
+
+.slider-buttons		
+	position: relative
+	bottom: 240px
+	z-index: 1
+	@extend .content-wrapper
+
+.slider-buttons__prev,.slider-buttons__next
+	position: absolute
+	z-index: 1
+	color: #fff
+	font-size: 2rem
+	cursor: pointer
+	width: 45px
+	border-radius: 30px 
+	background-color: rgba(0,0,0,.7) 
+	text-align: center
+	padding: 2px 14px 7px
+
+.slider-buttons__prev
+	left: 0%	
+.slider-buttons__next
+	right: 0%	
+.slider__bottomline
+	height: 3px
+	width: 100%
+	position: absolute
+	bottom: 2px
+	background: #fff
+
+.slider
+	.cycle-overlay
+		position: absolute
+		bottom: 50px
+		right: 50%
+		margin-right: 60px
+		z-index: 101
+		color: #fff
+		padding: 25px 30px
+		max-width: 430px
+		background-color: rgba(0,0,0,.7)
+		div
+			display: inline-block
+.slider-list__item-name
+	font-size: 2.92rem
+.slider-list__item-description
+	font-size: 1.84rem	
+
+/*Menu Middle*/	
+.menu-list__item_menu-middle
+	display: inline-block
+	list-style-type: none
