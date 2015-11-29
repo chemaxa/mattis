@@ -1,103 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru">
-
-<head>
+<html lang="ru" class="html">
+  <head>
     <meta charset="UTF-8">
     <title>Mattis</title>
     <link rel="shortcut icon" href="/favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <!-- jquery -->
+    <!-- jquery-->
     <script src="js/jquery-2.1.4.min.js"></script>
-    <!-- Slider -->
+    <!-- Slider-->
     <script src="js/jquery.cycle2.min.js"></script>
     <script src="js/jquery.cycle2.center.min.js"></script>
     <script src="js/jquery.cycle2.caption2.min.js"></script>
-    <!-- Main JS -->
+    <!-- Main JS-->
     <script src="js/main.js"></script>
-</head>
-
-<body>
+  </head>
+  <body class="page">
     <header class="page-header">
-        <div class="content-wrapper">
-            <div class="logo"><img class="logo__image" src="img/logo.png"></div>
-            <div class="phone">
-                <div class="phone__description">Телефон в Санкт-Петербурге</div>
-                <div class="phone__number">8 (812) 111-77-55</div>
-            </div>
-            <div class="phone">
-                <div class="phone__description">Бесплатный звонок по России</div>
-                <div class="phone__number">8 (800) 333-55-77</div>
-            </div>
-            <div class="consultant">
-                <div class="consultant-logo">
-                    <img class="consultant-logo__image" src="img/consultant_icon.png" alt="">
-                </div>
-                <div class="consultant-description">
-                    Консультация
-                    <br> специалиста
-                </div>
-            </div>
+      <div class="content-wrapper">
+        <div class="logo"><img src="img/logo.png" class="logo__image"></div>
+        <div class="phone">
+          <div class="phone__description">Телефон в Санкт-Петербурге</div>
+          <div class="phone__number">8 (812) 111-77-55</div>
         </div>
-        <nav class="menu menu_top">
-            <ul class="menu-list menu-list_top">
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top " href="">Главная</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top " href="">О Компании</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top  link_menu-new-building" href="">Новостройки</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top  link_menu-resale-building" href="">Вторичная</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top  link_menu-rent-building" href="">Аренда</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top  link_menu-cottage-building" href="">Загородная</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-top">
-                    <a class="link link_menu-top " href="">Контакты</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="phone">
+          <div class="phone__description">Бесплатный звонок по России</div>
+          <div class="phone__number">8 (800) 333-55-77</div>
+        </div>
+        <div class="consultant">
+          <div class="consultant__logo"><img src="img/consultant_icon.png" alt="" class="consultant__logo-image"></div>
+          <div class="consultant__description">Консультация<br> специалиста</div>
+        </div>
+      </div>
+      <nav class="menu menu_top">
+        <ul class="menu-list menu-list_top">
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top">Главная</a></li>
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top">О Компании</a></li>
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top link_menu-new-building">Новостройки</a></li>
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top link_menu-resale-building">Вторичная</a></li>
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top link_menu-rent-building">Аренда</a></li>
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top link_menu-cottage-building">Загородная</a></li>
+          <li class="menu-list__item menu-list__item_top"><a href="" class="link menu-list__link_top">Контакты</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="slider">
-        <div id="js-slider" class="slider-list">
-            <div class="slider-list__item" data-cycle-desc="<span class='slider-list__item-name'>Квартиры</span><span class='slider-list__item-description'> в новостройках во всех районах Петербурга</span>" style="background: url(img/slide1.jpg) no-repeat center center; background-size: cover;"></div>
-            <div class="slider-list__item" data-cycle-desc="<span class='slider-list__item-name'>Квартиры</span><span class='slider-list__item-description'> в новостройках во всех районах Петербурга</span>" style="background: url(img/slide2.jpg) no-repeat center center; background-size: cover;"></div>
-            <div class="slider-list__item" data-cycle-desc="<span class='slider-list__item-name'>Квартиры</span><span class='slider-list__item-description'> в новостройках во всех районах Петербурга</span>" style="background: url(img/slide3.jpg) no-repeat center center; background-size: cover;"></div>
-            <div class="cycle-overlay"></div>
-        </div>
-        <div class="slider__pagination"></div>
-        <div class="slider-buttons">
-            <span class="slider-buttons__prev"><</span>
-            <span class="slider-buttons__next">></span>
-        </div>
-        <div class="slider__bottomline"></div>
+      <div id="js-slider" class="slider-list">
+        <div data-cycle-desc="&lt;span class='slider-list__item-name'&gt;Квартиры&lt;/span&gt;&lt;span class='slider-list__item-description'&gt; в новостройках во всех районах Петербурга&lt;/span&gt;" style="background: url(img/slide1.jpg) no-repeat center center; background-size: cover;" class="slider-list__item"></div>
+        <div data-cycle-desc="&lt;span class='slider-list__item-name'&gt;Квартиры&lt;/span&gt;&lt;span class='slider-list__item-description'&gt; в новостройках во всех районах Петербурга&lt;/span&gt;" style="background: url(img/slide2.jpg) no-repeat center center; background-size: cover;" class="slider-list__item"></div>
+        <div data-cycle-desc="&lt;span class='slider-list__item-name'&gt;Квартиры&lt;/span&gt;&lt;span class='slider-list__item-description'&gt; в новостройках во всех районах Петербурга&lt;/span&gt;" style="background: url(img/slide3.jpg) no-repeat center center; background-size: cover;" class="slider-list__item"></div>
+        <div class="cycle-overlay"></div>
+      </div>
+      <div class="slider__pagination"></div>
+      <div class="slider-buttons"><span class="slider-buttons__prev"><</span><span class="slider-buttons__next">></span></div>
+      <div class="slider__bottomline"></div>
     </section>
     <section>
-        <nav class="menu menu-middle">
-            <ul class="menu-list menu-list_middle">
-                <li class="menu-list__item menu-list__item_menu-middle">
-                    <a class="link link_menu-middle" href="">Новостройки Петербурга</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-middle">
-                    <a class="link link_menu-middle" href="">Вторичная недвижимость</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-middle">
-                    <a class="link link_menu-middle" href="">Аренда квартир и комнат</a>
-                </li>
-                <li class="menu-list__item menu-list__item_menu-middle">
-                    <a class="link link_menu-middle" href="">Коттеджные поселки</a>
-                </li>
-            </ul>
-        </nav>
+      <nav class="menu menu-middle">
+        <ul class="menu-list menu-list_middle">
+          <li class="menu-list__item menu-list__item_menu-middle"><a href="" class="link link_menu-middle">Новостройки Петербурга</a></li>
+          <li class="menu-list__item menu-list__item_menu-middle"><a href="" class="link link_menu-middle">Вторичная недвижимость</a></li>
+          <li class="menu-list__item menu-list__item_menu-middle"><a href="" class="link link_menu-middle">Аренда квартир и комнат</a></li>
+          <li class="menu-list__item menu-list__item_menu-middle"><a href="" class="link link_menu-middle">Коттеджные поселки</a></li>
+        </ul>
+      </nav>
     </section>
-</body>
-
+  </body>
 </html>
