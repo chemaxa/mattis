@@ -1,5 +1,5 @@
 doctype html
-html(lang='ru')
+html(lang='ru').html
   head
     meta(charset='UTF-8')
     title Mattis
@@ -15,7 +15,7 @@ html(lang='ru')
     script(src='js/jquery.cycle2.caption2.min.js')
     // Main JS
     script(src='js/main.js')
-  body
+  body.page
     header.page-header
       .content-wrapper
         .logo
@@ -27,9 +27,9 @@ html(lang='ru')
           .phone__description Бесплатный звонок по России
           .phone__number 8 (800) 333-55-77
         .consultant
-          .consultant-logo
-            img.consultant-logo__image(src='img/consultant_icon.png', alt='')
-          .consultant-description
+          .consultant__logo
+            img.consultant__logo-image(src='img/consultant_icon.png', alt='')
+          .consultant__description
             | Консультация
             br
             |  специалиста
