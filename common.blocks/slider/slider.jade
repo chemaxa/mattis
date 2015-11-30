@@ -1,0 +1,13 @@
++b('section').slider
+  +e#js-slider.list
+    +e.item(data-cycle-desc="<span class='slider__item-name'>Квартиры</span><span class='slider__item-description'> в новостройках во всех районах Петербурга</span>", style='background: url(img/slide1.jpg) no-repeat center center; background-size: cover;')
+    +e.item(data-cycle-desc="<span class='slider__item-name'>Квартиры</span><span class='slider__item-description'> в новостройках во всех районах Петербурга</span>", style='background: url(img/slide2.jpg) no-repeat center center; background-size: cover;')
+    +e.item(data-cycle-desc="<span class='slider__item-name'>Квартиры</span><span class='slider__item-description'> в новостройках во всех районах Петербурга</span>", style='background: url(img/slide3.jpg) no-repeat center center; background-size: cover;')
+    .cycle-overlay
+  +e.pagination
+  +e.buttons
+    +b('span').button.slider__button_prev 
+      |<
+    +b('span').button.slider__button_next 
+      |>
+  +e.bottomline

@@ -13,6 +13,7 @@ var params = {
     currentFile: 'index',
     jadeSrc: 'jade',
     sassSrc: 'sass',
+    blocks: 'commons.blocks',
     jsSrc: 'js',
     cssDst: 'css',
     buildDst: ['.', '']
@@ -22,15 +23,15 @@ var params = {
 gulp.task('default', ['watch', 'sass', 'jade', 'browser-sync', 'csscomb']);
 
 // Watch Task
-gulp.task('watch', ['sass', 'jade', 'browser-sync'], function () {
+gulp.task('watch', ['sass', 'jade', 'browser-sync'], function() {
     gulp.watch([params.sassSrc + '/*.sass'], ['sass']);
     gulp.watch([params.jadeSrc + '/*.jade'], ['jade']);
-    //gulp.watch([params.jsSrc + '/*.js'], ['js']);
-    gulp.watch([params.jadeSrc + '/blocks/*.jade'], ['jade']);
+    //gulp.watch([params.jsSrc + '/*.js'], ['js']); */
+    gulp.watch([params.jadeSrc + '/common.blocks/*'], ['sass', 'jade']);
 });
-
-// Sass Complie Task
-gulp.task('sass', function () {
+gulp.task('build', ['sass', 'jade', 'browser-sync'])
+    // Sass Complie Task
+gulp.task('sass', function() {
     gulp.src([params.sassSrc + '/main.sass'])
         //.pipe(sourcemaps.init())
         .pipe(sass())
@@ -43,14 +44,14 @@ gulp.task('sass', function () {
 });
 
 // Css  styling
-gulp.task('csscomb', function () {
+gulp.task('csscomb', function() {
     gulp.src(params.cssDst + '/' + params.currentFile + '.css')
         .pipe(csscomb())
         .pipe(gulp.dest(params.cssDst))
 });
 
 // Jade
-gulp.task('jade', function () {
+gulp.task('jade', function() {
     gulp.src(params.jadeSrc + '/' + params.currentFile + '.jade')
         .pipe(jade({
             pretty: true
@@ -60,7 +61,7 @@ gulp.task('jade', function () {
 });
 
 // Static server
-gulp.task('browser-sync', function () {
+gulp.task('browser-sync', function() {
     var files = [
         //params.jadeSrc + '/*.html',
         params.cssDst + '/*.css',

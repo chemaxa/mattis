@@ -1,145 +1,17 @@
 /*Service styles*/
 @import _colors.sass
 @import _services.sass
+
 /*Blocks styles*/
-@import common.blocks/_html.sass
-@import common.blocks/_page.sass
-@import common.blocks/_h1.sass
-@import common.blocks/_link.sass
-@import common.blocks/_page-header.sass
-@import common.blocks/_logo.sass
-@import common.blocks/_phone.sass
-@import common.blocks/_consultant.sass
-
-/* Blocks */
-
-/*Top menu*/
-.menu_top
-	background-color: $gray
-	border-bottom: 4px solid $light-gray
-	margin-top: 25px
-
-.menu-list
-	@extend .content-wrapper
-	padding: 0
-
-.menu-list_top	
-	display: table
-	margin-bottom: -4px
-
-.menu-list__item_top
-	display: table-cell
-	border-right: 1px solid #707070
-	&:last-child
-		border-right: none
+@import ../common.blocks/page/_html.sass
+@import ../common.blocks/page/_page.sass
+@import ../common.blocks/heading/_h1.sass
+@import ../common.blocks/link/_link.sass
+@import ../common.blocks/logo/_logo.sass
+@import ../common.blocks/phone/_phone.sass
+@import ../common.blocks/consultant/_consultant.sass
+@import ../common.blocks/menu/menu-top/_menu.sass
+@import ../common.blocks/slider/_slider.sass
+@import ../common.blocks/menu/menu-middle/_menu.sass
 
 
-.menu-list__link_top
-	padding: 15px 30px
-	color: #fff
-	display: block
-	text-align: center
-	text-decoration: none
-	font-size: 1.15rem
-	&:hover
-		background-color: $middle-gray
-
-.link_menu-new-building
-	border-bottom: 4px solid $blue
-	&:hover
-		background-color: $blue
-.link_menu-resale-building
-	border-bottom: 4px solid $orange
-	&:hover
-		background-color: $orange
-.link_menu-rent-building
-	border-bottom: 4px solid $yellow
-	&:hover
-		background-color: $yellow	
-.link_menu-cottage-building
-	border-bottom: 4px solid $light-green
-	&:hover
-		background-color: $light-green
-
-
-/*Slider*/		
-.slider
-	border-top: 1px solid #fff
-	position: relative
-.slider-list
-	z-index: -1
-	position: relative
-.slider-list__item
-	height: 410px
-	overflow: hidden
-	width: 100%
-
-.slider__pagination
-	position: absolute
-	bottom: 25px
-	right: 50%
-	&>span
-		display: inline-block
-		position: relative
-		width: 10px
-		height: 10px
-		margin-right: 7px
-		z-index: 1
-		background: $green
-		border: 1px solid #fff
-		border-radius: 15px
-		cursor: pointer
-	&>span.cycle-pager-active		
-		background: #fff
-
-.slider-buttons		
-	position: relative
-	bottom: 240px
-	z-index: 1
-	@extend .content-wrapper
-
-.slider-buttons__prev,.slider-buttons__next
-	position: absolute
-	z-index: 1
-	color: #fff
-	font-size: 2rem
-	cursor: pointer
-	width: 45px
-	border-radius: 30px 
-	background-color: rgba(0,0,0,.7) 
-	text-align: center
-	padding: 2px 14px 7px
-
-.slider-buttons__prev
-	left: 0%	
-.slider-buttons__next
-	right: 0%	
-.slider__bottomline
-	height: 3px
-	width: 100%
-	position: absolute
-	bottom: 2px
-	background: #fff
-
-.slider
-	.cycle-overlay
-		position: absolute
-		bottom: 50px
-		right: 50%
-		margin-right: 60px
-		z-index: 101
-		color: #fff
-		padding: 25px 30px
-		max-width: 430px
-		background-color: rgba(0,0,0,.7)
-		div
-			display: inline-block
-.slider-list__item-name
-	font-size: 2.92rem
-.slider-list__item-description
-	font-size: 1.84rem	
-
-/*Menu Middle*/	
-.menu-list__item_menu-middle
-	display: inline-block
-	list-style-type: none

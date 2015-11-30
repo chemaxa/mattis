@@ -1,0 +1,47 @@
+/*Top menu*/
+.menu_top
+	background-color: $gray
+	border-bottom: 4px solid $light-gray
+	margin-top: 25px
+
+.menu-list
+	@extend .content-wrapper
+	padding: 0
+
+.menu-list_top	
+	display: table
+	margin-bottom: -4px
+
+.menu-list__item_top
+	display: table-cell
+	border-right: 1px solid #707070
+	&:last-child
+		border-right: none
+
+
+.menu-list__link_top
+	padding: 15px 30px
+	color: #fff
+	display: block
+	text-align: center
+	text-decoration: none
+	font-size: 1.15rem
+	&:hover
+		background-color: $middle-gray
+
+.menu-list__link_new-building
+	border-bottom: 4px solid $blue
+	&:hover
+		background-color: $blue
+.menu-list__link_resale-building
+	border-bottom: 4px solid $orange
+	&:hover
+		background-color: $orange
+.menu-list__link_rent-building
+	border-bottom: 4px solid $yellow
+	&:hover
+		background-color: $yellow	
+.menu-list__link_cottage-building
+	border-bottom: 4px solid $light-green
+	&:hover
+		background-color: $light-green
