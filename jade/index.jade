@@ -1,104 +1,74 @@
-doctype html(lang='ru')
-head
+doctype html
+html(lang='ru').html
+  head
     meta(charset='UTF-8')
-    |     
     title Mattis
-    |     
     link(rel='shortcut icon', href='/favicon.ico')
-    |     
     link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic', rel='stylesheet', type='text/css')
-    |     
     link(rel='stylesheet', href='css/normalize.css')
-    |     
     link(rel='stylesheet', href='css/main.css')
     // jquery
     script(src='js/jquery-2.1.4.min.js')
     // Slider
     script(src='js/jquery.cycle2.min.js')
-    |     
     script(src='js/jquery.cycle2.center.min.js')
-    |     
     script(src='js/jquery.cycle2.caption2.min.js')
     // Main JS
     script(src='js/main.js')
-  body
+  body.page
     header.page-header
       .content-wrapper
         .logo
           img.logo__image(src='img/logo.png')
-        |             
         .phone
-          .phone__description &Tcy;&iecy;&lcy;&iecy;&fcy;&ocy;&ncy; &vcy; &Scy;&acy;&ncy;&kcy;&tcy;-&Pcy;&iecy;&tcy;&iecy;&rcy;&bcy;&ucy;&rcy;&gcy;&iecy;
-          |                 
+          .phone__description Телефон в Санкт-Петербурге
           .phone__number 8 (812) 111-77-55
-        |             
         .phone
-          .phone__description &Bcy;&iecy;&scy;&pcy;&lcy;&acy;&tcy;&ncy;&ycy;&jcy; &zcy;&vcy;&ocy;&ncy;&ocy;&kcy; &pcy;&ocy; &Rcy;&ocy;&scy;&scy;&icy;&icy;
-          |                 
+          .phone__description Бесплатный звонок по России
           .phone__number 8 (800) 333-55-77
-        |             
         .consultant
-          .consultant-logo
-            img.consultant-logo__image(src='img/consultant_icon.png', alt='')
-          |                 
-          .consultant-description
-            | &Kcy;&ocy;&ncy;&scy;&ucy;&lcy;&softcy;&tcy;&acy;&tscy;&icy;&yacy;
+          .consultant__logo
+            img.consultant__logo-image(src='img/consultant_icon.png', alt='')
+          .consultant__description
+            | Консультация
             br
-            |  &scy;&pcy;&iecy;&tscy;&icy;&acy;&lcy;&icy;&scy;&tcy;&acy;
-      |         
+            |  специалиста
       nav.menu.menu_top
         ul.menu-list.menu-list_top
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top(href='') &Gcy;&lcy;&acy;&vcy;&ncy;&acy;&yacy;
-          |                 
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top(href='') &Ocy; &Kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&icy;
-          |                 
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top.link_menu-new-building(href='') &Ncy;&ocy;&vcy;&ocy;&scy;&tcy;&rcy;&ocy;&jcy;&kcy;&icy;
-          |                 
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top.link_menu-resale-building(href='') &Vcy;&tcy;&ocy;&rcy;&icy;&chcy;&ncy;&acy;&yacy;
-          |                 
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top.link_menu-rent-building(href='') &Acy;&rcy;&iecy;&ncy;&dcy;&acy;
-          |                 
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top.link_menu-cottage-building(href='') &Zcy;&acy;&gcy;&ocy;&rcy;&ocy;&dcy;&ncy;&acy;&yacy;
-          |                 
-          li.menu-list__item.menu-list__item_menu-top
-            a.link.link_menu-top(href='') &Kcy;&ocy;&ncy;&tcy;&acy;&kcy;&tcy;&ycy;
-    |     
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top(href='') Главная
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top(href='') О Компании
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top.link_menu-new-building(href='') Новостройки
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top.link_menu-resale-building(href='') Вторичная
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top.link_menu-rent-building(href='') Аренда
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top.link_menu-cottage-building(href='') Загородная
+          li.menu-list__item.menu-list__item_top
+            a.link.menu-list__link_top(href='') Контакты
     section.slider
       #js-slider.slider-list
         .slider-list__item(data-cycle-desc="<span class='slider-list__item-name'>Квартиры</span><span class='slider-list__item-description'> в новостройках во всех районах Петербурга</span>", style='background: url(img/slide1.jpg) no-repeat center center; background-size: cover;')
-        |             
         .slider-list__item(data-cycle-desc="<span class='slider-list__item-name'>Квартиры</span><span class='slider-list__item-description'> в новостройках во всех районах Петербурга</span>", style='background: url(img/slide2.jpg) no-repeat center center; background-size: cover;')
-        |             
         .slider-list__item(data-cycle-desc="<span class='slider-list__item-name'>Квартиры</span><span class='slider-list__item-description'> в новостройках во всех районах Петербурга</span>", style='background: url(img/slide3.jpg) no-repeat center center; background-size: cover;')
-        |             
         .cycle-overlay
-      |         
       .slider__pagination
-      |         
       .slider-buttons
-        span.slider-buttons__prev &lt;
-        |             
-        span.slider-buttons__next &gt;
-      |         
+        span.slider-buttons__prev <
+        span.slider-buttons__next >
       .slider__bottomline
-    |     
     section
       nav.menu.menu-middle
         ul.menu-list.menu-list_middle
           li.menu-list__item.menu-list__item_menu-middle
-            a.link.link_menu-middle(href='') &Ncy;&ocy;&vcy;&ocy;&scy;&tcy;&rcy;&ocy;&jcy;&kcy;&icy; &Pcy;&iecy;&tcy;&iecy;&rcy;&bcy;&ucy;&rcy;&gcy;&acy;
-          |                 
+            a.link.link_menu-middle(href='') Новостройки Петербурга
           li.menu-list__item.menu-list__item_menu-middle
-            a.link.link_menu-middle(href='') &Vcy;&tcy;&ocy;&rcy;&icy;&chcy;&ncy;&acy;&yacy; &ncy;&iecy;&dcy;&vcy;&icy;&zhcy;&icy;&mcy;&ocy;&scy;&tcy;&softcy;
-          |                 
+            a.link.link_menu-middle(href='') Вторичная недвижимость
           li.menu-list__item.menu-list__item_menu-middle
-            a.link.link_menu-middle(href='') &Acy;&rcy;&iecy;&ncy;&dcy;&acy; &kcy;&vcy;&acy;&rcy;&tcy;&icy;&rcy; &icy; &kcy;&ocy;&mcy;&ncy;&acy;&tcy;
-          |                 
+            a.link.link_menu-middle(href='') Аренда квартир и комнат
           li.menu-list__item.menu-list__item_menu-middle
-            a.link.link_menu-middle(href='') &Kcy;&ocy;&tcy;&tcy;&iecy;&dcy;&zhcy;&ncy;&ycy;&iecy; &pcy;&ocy;&scy;&iecy;&lcy;&kcy;&icy;
+            a.link.link_menu-middle(href='') Коттеджные поселки
+

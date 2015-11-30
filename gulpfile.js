@@ -4,6 +4,8 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
     jade = require('gulp-jade'),
     csscomb = require('gulp-csscomb'),
+    postcss = require('gulp-postcss'),
+    autoprefixer = require('autoprefixer'),
     reload = browserSync.reload;
 
 // Params
@@ -20,7 +22,7 @@ var params = {
 gulp.task('default', ['watch', 'sass', 'jade', 'browser-sync', 'csscomb']);
 
 // Watch Task
-gulp.task('watch', ['sass', 'jade', 'browser-sync'], function() {
+gulp.task('watch', ['sass', 'jade', 'browser-sync'], function () {
     gulp.watch([params.sassSrc + '/*.sass'], ['sass']);
     gulp.watch([params.jadeSrc + '/*.jade'], ['jade']);
     //gulp.watch([params.jsSrc + '/*.js'], ['js']);
@@ -28,33 +30,27 @@ gulp.task('watch', ['sass', 'jade', 'browser-sync'], function() {
 });
 
 // Sass Complie Task
-gulp.task('sass', function() {
-    gulp.src([params.sassSrc + '/' + params.currentFile + '.sass', params.sassSrc + '/main.sass'])
+gulp.task('sass', function () {
+    gulp.src([params.sassSrc + '/main.sass'])
         //.pipe(sourcemaps.init())
         .pipe(sass())
+        .pipe(postcss([autoprefixer({
+            browsers: ['last 2 versions']
+        })]))
         //.pipe(sourcemaps.write('./')) 
         .pipe(csscomb())
         .pipe(gulp.dest(params.cssDst))
-        //.pipe(browserSync.stream());
-        // Rewrite Main Css everytime
-        //gulp.src(params.sassSrc + '/main.sass')
-        //.pipe(sourcemaps.init())
-        //.pipe(sass())
-        //.pipe(sourcemaps.write('./')) // Css Build Folder
-        //.pipe(csscomb())
-        //.pipe(gulp.dest(params.cssDst))
 });
 
 // Css  styling
-gulp.task('csscomb', function() {
+gulp.task('csscomb', function () {
     gulp.src(params.cssDst + '/' + params.currentFile + '.css')
         .pipe(csscomb())
         .pipe(gulp.dest(params.cssDst))
-        //.pipe(browserSync.stream());
 });
 
 // Jade
-gulp.task('jade', function() {
+gulp.task('jade', function () {
     gulp.src(params.jadeSrc + '/' + params.currentFile + '.jade')
         .pipe(jade({
             pretty: true
@@ -64,7 +60,7 @@ gulp.task('jade', function() {
 });
 
 // Static server
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', function () {
     var files = [
         //params.jadeSrc + '/*.html',
         params.cssDst + '/*.css',

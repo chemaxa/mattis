@@ -1,72 +1,18 @@
-@import _theme.sass
-/*Main styles*/
-*,
-*:after,
-*:before
-	box-sizing: border-box
-html
-	font-size: 13px //For rems
-body
-	line-height: 1.42
-	font-family: 'Roboto', sans-serif
-	color: $text-color
-h1
-	color: #3b3b3b
-	font-size: 2rem
+/*Service styles*/
+@import _colors.sass
+@import _services.sass
+/*Blocks styles*/
+@import common.blocks/_html.sass
+@import common.blocks/_page.sass
+@import common.blocks/_h1.sass
+@import common.blocks/_link.sass
+@import common.blocks/_page-header.sass
+@import common.blocks/_logo.sass
+@import common.blocks/_phone.sass
+@import common.blocks/_consultant.sass
 
-/*Services*/
-.inline-block
-	display: inline-block
-	vertical-align: top
-.content-wrapper
-		width: 960px
-		margin: 0 auto	
-.clearfix:after
-	content: " "
-	visibility: hidden
-	display: block
-	height: 0
-	clear: both
+/* Blocks */
 
-/*Blocks */
-.link
-	color: #3b66a3
-
-/*Blocks Header*/
-.page-header
-	background: url(../img/top_city.png) no-repeat center top
-	padding-top: 20px
-
-.logo,.phone,.consultant
-	@extend .inline-block
-
-.phone
-	padding: 10px 5px
-	margin-left: 40px
-	border-left: 2px solid $lighten-gray
-	&__description
-		font-size: 0.85rem
-		color: #797979
-		font-weight: 600
-
-	&__number
-		font-size: 1.54rem
-		color: #484848
-		font-weight: 600
-
-.consultant
-	margin-left: 40px
-
-.consultant-logo
-	@extend .inline-block
-
-.consultant-description
-	@extend .inline-block
-	vertical-align: middle
-	color: $green
-	font-size: 1.23rem
-	font-weight: 600
-	
 /*Top menu*/
 .menu_top
 	background-color: $gray
@@ -76,19 +22,25 @@ h1
 .menu-list
 	@extend .content-wrapper
 	padding: 0
-	
+
 .menu-list_top	
 	display: table
 	margin-bottom: -4px
 
-.link_menu-top
+.menu-list__item_top
+	display: table-cell
+	border-right: 1px solid #707070
+	&:last-child
+		border-right: none
+
+
+.menu-list__link_top
 	padding: 15px 30px
 	color: #fff
 	display: block
 	text-align: center
 	text-decoration: none
 	font-size: 1.15rem
-
 	&:hover
 		background-color: $middle-gray
 
@@ -108,13 +60,6 @@ h1
 	border-bottom: 4px solid $light-green
 	&:hover
 		background-color: $light-green
-
-
-.menu-list__item_menu-top
-	display: table-cell
-	border-right: 1px solid #707070
-	&:last-child
-		border-right: none
 
 
 /*Slider*/		
