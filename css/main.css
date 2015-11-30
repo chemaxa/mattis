@@ -17,7 +17,7 @@
 }
 
 .content-wrapper,
-.menu-list,
+.menu__list,
 .slider__buttons{
   width: 960px;
   margin: 0 auto;
@@ -83,6 +83,11 @@
   font-weight: 600;
 }
 
+/*Common Menu Block*/
+.menu__list{
+  padding: 0;
+}
+
 /*Top menu*/
 .menu_top{
   background-color: #52575f;
@@ -90,24 +95,20 @@
   margin-top: 25px;
 }
 
-.menu-list{
-  padding: 0;
-}
-
-.menu-list_top{
+.menu__list_top{
   display: table;
   margin-bottom: -4px;
 }
 
-.menu-list__item_top{
+.menu__item_top{
   display: table-cell;
   border-right: 1px solid #707070;
 }
-.menu-list__item_top:last-child{
+.menu__item_top:last-child{
   border-right: none;
 }
 
-.menu-list__link_top{
+.menu__link_top{
   padding: 15px 30px;
   color: #ffffff;
   display: block;
@@ -115,36 +116,116 @@
   text-decoration: none;
   font-size: 1.15rem;
 }
-.menu-list__link_top:hover{
+.menu__link_top:hover{
   background-color: #5c636d;
 }
-
-.menu-list__link_new-building{
+.menu__link_top-new-building{
   border-bottom: 4px solid #4eb9e5;
 }
-.menu-list__link_new-building:hover{
+.menu__link_top-new-building:hover{
+  background-color: #4eb9e5;
+}
+.menu__link_top-resale-building{
+  border-bottom: 4px solid #f2b237;
+}
+.menu__link_top-resale-building:hover{
+  background-color: #f2b237;
+}
+.menu__link_top-rent-building{
+  border-bottom: 4px solid #eede58;
+}
+.menu__link_top-rent-building:hover{
+  background-color: #eede58;
+}
+.menu__link_top-cottage-building{
+  border-bottom: 4px solid #9cd35a;
+}
+.menu__link_top-cottage-building:hover{
+  background-color: #9cd35a;
+}
+
+/*Menu Middle*/
+.menu_middle{
+  margin: 40px 0;
+}
+
+.menu__item_middle{
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  width: 24%;
+  height: 215px;
+}
+
+.menu__item-mask{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: -9px;
+  border-radius: 98px;
+  overflow: hidden;
+  left: 15px;
+}
+.menu__item-mask_new-building{
+  border: 4px solid #4eb9e5;
+}
+.menu__item-mask_resale-building{
+  border: 4px solid #f2b237;
+}
+.menu__item-mask_rent-building{
+  border: 4px solid #eede58;
+}
+.menu__item-mask_cottage-building{
+  border: 4px solid #9cd35a;
+}
+
+.menu__item-description_middle{
+  padding: 10px;
+  color: #ffffff;
+  font-size: 1.23rem;
+  background-color: #52575f;
+  max-width: 160px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  position: absolute;
+  top: 145px;
+  left: 38px;
+}
+
+.menu__item_new-building:hover{
   background-color: #4eb9e5;
 }
 
-.menu-list__link_resale-building{
-  border-bottom: 4px solid #f2b237;
-}
-.menu-list__link_resale-building:hover{
+.menu__item_rent-building:hover{
   background-color: #f2b237;
 }
 
-.menu-list__link_rent-building{
-  border-bottom: 4px solid #eede58;
-}
-.menu-list__link_rent-building:hover{
+.menu__item_resale-building:hover{
   background-color: #eede58;
 }
 
-.menu-list__link_cottage-building{
-  border-bottom: 4px solid #9cd35a;
-}
-.menu-list__link_cottage-building:hover{
+.menu__item_cottage-building:hover{
   background-color: #9cd35a;
+}
+
+.menu__link_middle{
+  display: block;
+  width: 100%;
+  height: 160px;
+}
+.menu__link_middle-new-building{
+  background: url(../img/new_house_icon.png) no-repeat center center;
+}
+.menu__link_middle-resale-building{
+  background: url(../img/resale_icon.png) no-repeat center center;
+}
+.menu__link_middle-rent-building{
+  background: url(../img/rent_icon.png) no-repeat center center;
+}
+.menu__link_middle-cottage-building{
+  background: url(../img/cottage_icon.png) no-repeat center center;
 }
 
 /*Slider*/
@@ -233,8 +314,49 @@
   font-size: 1.84rem;
 }
 
-/*Menu Middle*/
-.menu-list__item_menu-middle{
+.gallery_centered{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.gallery__wrapper{
+  background: url(../img/offers_bg.png);
+  position: relative;
+}
+
+.gallery__topline{
+  height: 3px;
+  position: absolute;
+  width: 100%;
+  top: 2px;
+  background: #ffffff;
+}
+
+.gallery__title{
+  border-left: 2px solid #9cd35a;
+  color: #3b3b3b;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.gallery__title_best-offers{
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.gallery__title_special-offers{
+  font-size: 1.4rem;
+}
+
+.gallery__best-offers,
+.gallery__special-offers{
   display: inline-block;
-  list-style-type: none;
+  vertical-align: top;
+}
+
+.gallery__best-offers{
+  max-width: 730px;
+}
+
+.gallery__item{
+  display: inline-block;
+  max-width: 226px;
 }

@@ -1,0 +1,32 @@
+.gallery
+	&_centered
+		margin: 0 auto
+		width: 960px
+	&__wrapper
+		background: url(../img/offers_bg.png)
+		position: relative
+	&__topline
+		height: 3px
+		position: absolute
+		width: 100%
+		top: 2px
+		background: #fff
+
+	&__title
+		border-left: 2px solid $light-green
+		color: $title-gallery
+		margin-top: 40px
+		margin-bottom: 25px
+		&_best-offers
+			font-size: 1.7rem
+			text-transform: uppercase
+		&_special-offers
+			font-size: 1.4rem
+	&__best-offers,&__special-offers
+		display: inline-block
+		vertical-align: top
+	&__best-offers		
+		max-width: 730px
+	&__item
+		display: inline-block		
+		max-width: 226px

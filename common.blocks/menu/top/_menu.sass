@@ -1,0 +1,49 @@
+/*Top menu*/
+.menu
+	&_top
+		background-color: $gray
+		border-bottom: 4px solid $light-gray
+		margin-top: 25px
+
+	&__list
+		&_top	
+			display: table
+			margin-bottom: -4px
+
+	&__item
+		&_top
+			display: table-cell
+			border-right: 1px solid #707070
+			&:last-child
+				border-right: none
+				
+	&__link
+		&_top
+			padding: 15px 30px
+			color: #fff
+			display: block
+			text-align: center
+			text-decoration: none
+			font-size: 1.15rem
+			&:hover
+				background-color: $middle-gray
+
+			&-new-building
+				border-bottom: 4px solid $blue
+				&:hover
+					background-color: $blue
+
+			&-resale-building
+				border-bottom: 4px solid $orange
+				&:hover
+					background-color: $orange
+
+			&-rent-building
+				border-bottom: 4px solid $yellow
+				&:hover
+					background-color: $yellow	
+
+			&-cottage-building
+				border-bottom: 4px solid $light-green
+				&:hover
+					background-color: $light-green

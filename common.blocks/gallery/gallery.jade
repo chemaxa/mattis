@@ -1,0 +1,23 @@
+-var n=0
++b('section').gallery_centered
+  +e.best-offers
+    +e.title_best-offers Лучшие предложения
+    while n < 6
+      +e.item
+        +e('img').item-logo(src='/img/house_photo.jpg')
+        +e.item-description 3-комн. квартира, метро Спортивная, Чкаловская
+        +e.item-cost 7 500 000 руб.
+        +e('a').item-detail Подробнее
+        =n++
+
+  +e.special-offers
+    +e.title_special-offers Спецпредложения
+    -n=0
+    while n < 2
+      +e.item_special-offers
+        +e('img').item-logo(src='/img/house_photo.jpg')
+        +e.item-description 3-комн. квартира, метро Спортивная, Чкаловская
+        +e.item-cost 7 500 000 руб.
+        +e('a').item-detail Подробнее
+        =n++
+

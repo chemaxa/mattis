@@ -13,7 +13,7 @@ var params = {
     currentFile: 'index',
     jadeSrc: 'jade',
     sassSrc: 'sass',
-    blocks: 'commons.blocks',
+    blocks: 'common.blocks',
     jsSrc: 'js',
     cssDst: 'css',
     buildDst: ['.', '']
@@ -27,7 +27,7 @@ gulp.task('watch', ['sass', 'jade', 'browser-sync'], function() {
     gulp.watch([params.sassSrc + '/*.sass'], ['sass']);
     gulp.watch([params.jadeSrc + '/*.jade'], ['jade']);
     //gulp.watch([params.jsSrc + '/*.js'], ['js']); */
-    gulp.watch([params.jadeSrc + '/common.blocks/*'], ['sass', 'jade']);
+    gulp.watch([params.blocks + '/**/*'], ['sass', 'jade']); //Watch on files in common blocks directory
 });
 gulp.task('build', ['sass', 'jade', 'browser-sync'])
     // Sass Complie Task

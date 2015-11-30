@@ -16,19 +16,18 @@ html(lang='ru').html
     script(src='js/jquery.cycle2.caption2.min.js')
     // Main JS
     script(src='js/main.js')
-  //-
-  //- +b.block1
-  //-   +e.element1 Foo
-  //-   +b.block2
-  //-     +e('a')(href="#bar").element Bar
-  //-   +e.element2 Baz
+
   +b('body').page
    +e('header').header
       +b.content-wrapper
         include ../common.blocks/logo/logo
         include ../common.blocks/phone/phone
         include ../common.blocks/consultant/consultant
-      include ../common.blocks/menu/menu-top/menu
+      include ../common.blocks/menu/top/menu
     include ../common.blocks/slider/slider
   section
-    include ../common.blocks/menu/menu-middle/menu
+    include ../common.blocks/menu/middle/menu
+  .gallery__wrapper
+    .gallery__topline
+    include ../common.blocks/gallery/gallery
+

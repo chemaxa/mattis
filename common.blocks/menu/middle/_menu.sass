@@ -1,0 +1,69 @@
+/*Menu Middle*/	
+.menu
+	&_middle
+		margin: 40px 0
+
+	&__item
+		&_middle
+			display: inline-block
+			list-style-type: none
+			position: relative
+			width: 24%
+			height: 215px
+		&-mask
+			position: absolute
+			height: 200px
+			width: 200px
+			top: -9px
+			border-radius: 98px
+			overflow: hidden
+			left: 15px
+			&_new-building
+				border: 4px solid $blue
+				
+			&_resale-building
+				border: 4px solid $orange
+				
+			&_rent-building
+				border: 4px solid $yellow
+				
+			&_cottage-building
+				border: 4px solid $light-green
+
+		&-description
+			&_middle
+				padding: 10px
+				color: #fff
+				font-size: 1.23rem
+				background-color: $gray
+				max-width: 160px
+				display: block
+				text-align: center
+				margin: 0 auto
+				text-decoration: none
+				position: absolute
+				top: 145px
+				left: 38px
+		&_new-building:hover
+			background-color: $blue
+		&_rent-building:hover
+			background-color: $orange
+		&_resale-building:hover
+			background-color: $yellow
+		&_cottage-building:hover
+			background-color: $light-green
+
+	&__link
+		&_middle
+			display: block
+			width: 100%
+			height: 160px
+			&-new-building
+				background: url(../img/new_house_icon.png) no-repeat center center
+			&-resale-building
+				background: url(../img/resale_icon.png) no-repeat center center
+			&-rent-building
+				background: url(../img/rent_icon.png) no-repeat center center
+			&-cottage-building
+				background: url(../img/cottage_icon.png) no-repeat center center
+
