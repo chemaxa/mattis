@@ -1,0 +1,1755 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"_co",
+				"_cottage-building"
+			],
+			[
+				"_rent",
+				"_rent-building"
+			],
+			[
+				"_new",
+				"_new-building"
+			],
+			[
+				"__",
+				"__link_	(_menu.sass)"
+			],
+			[
+				"__link",
+				"__link_middle"
+			],
+			[
+				"slider",
+				"slider__bottomline	(index.html)"
+			],
+			[
+				"menu",
+				"menu__list"
+			],
+			[
+				"light",
+				"lighten-gray"
+			],
+			[
+				"he",
+				"header	(index.html)"
+			],
+			[
+				"te",
+				"templates	(index_a.htm)"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"top",
+				"top_slider	(home_a.htm)"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"load",
+				"loadPoint"
+			],
+			[
+				"cal",
+				"calculateData"
+			],
+			[
+				"row",
+				"rowNumber"
+			],
+			[
+				"update",
+				"updateView"
+			],
+			[
+				"upda",
+				"updateLoadPoint"
+			],
+			[
+				"clear",
+				"clearDOM"
+			],
+			[
+				"se",
+				"setInputNames"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"nw",
+				"nowrap"
+			],
+			[
+				"netto",
+				"nettoWeight"
+			],
+			[
+				"brutto",
+				"bruttoWeight"
+			],
+			[
+				"brutt",
+				"bruttoQty"
+			],
+			[
+				"nett",
+				"nettoWeight"
+			],
+			[
+				"volue",
+				"volumeQty"
+			],
+			[
+				"brut",
+				"bruttoWeight"
+			],
+			[
+				"seats",
+				"seatsQty"
+			],
+			[
+				"vol",
+				"volumeQty"
+			],
+			[
+				"volu",
+				"volumeQty	(Calculator.js)"
+			],
+			[
+				"sea",
+				"seatsQty	(Calculator.js)"
+			],
+			[
+				"clock",
+				"clock-bg.png	w:65 h:65"
+			],
+			[
+				"draw",
+				"drawClockFace"
+			],
+			[
+				"CLOC",
+				"CLOCK_BORDER_PADDING"
+			],
+			[
+				"CLOCK",
+				"CLOCK_BORDER_WIDTH"
+			],
+			[
+				"drawMinut",
+				"drawMinuteMarks"
+			],
+			[
+				"dra",
+				"drawMinutes"
+			],
+			[
+				"cloc",
+				"clockObj"
+			],
+			[
+				"point",
+				"point_params	(cargo_combine_edit.htm)"
+			],
+			[
+				"meas",
+				"meas_units	(cargo_combine_edit.htm)"
+			],
+			[
+				"carg",
+				"cargo_seats	(cargo_combine_edit.htm)"
+			],
+			[
+				"cargo_s",
+				"cargo_specifications	(cargo_avia_edit.htm)"
+			],
+			[
+				"unt",
+				"units"
+			],
+			[
+				"cargo",
+				"cargo_specifications	(add_modal.jade)"
+			],
+			[
+				"get",
+				"getCoef	(Calculator.js)"
+			],
+			[
+				"cure",
+				"currentVal"
+			],
+			[
+				"c",
+				"calculator"
+			],
+			[
+				"calc",
+				"calculator"
+			],
+			[
+				"col",
+				"colspan	Attr"
+			],
+			[
+				"place",
+				"place_from"
+			],
+			[
+				"set",
+				"setDataToRow"
+			],
+			[
+				"main",
+				"main_form	(cargo_avia_edit.htm)"
+			],
+			[
+				"current",
+				"currentVal"
+			],
+			[
+				"submit",
+				"submitBtn	(calculatorCs.html)"
+			],
+			[
+				"auth",
+				"auth_form"
+			],
+			[
+				"logout",
+				"logout_btn	(main.css)"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"мероприяти",
+				"мероприятий	(index.html)"
+			],
+			[
+				"date",
+				"dateArr"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"contact",
+				"contacts_wrapper"
+			],
+			[
+				"logo",
+				"logo_webdom.jpg	w:103 h:30"
+			],
+			[
+				"search",
+				"search_form"
+			],
+			[
+				"news",
+				"news_main"
+			],
+			[
+				"page",
+				"page_footer	(index.html)"
+			],
+			[
+				"sidebar",
+				"sidebar_events"
+			],
+			[
+				"middle",
+				"middle_sidebar_banner	(index.html)"
+			],
+			[
+				"events",
+				"events_cal	(index.html)"
+			],
+			[
+				"items",
+				"items_list	(index.html)"
+			],
+			[
+				"cler",
+				"clearfix"
+			],
+			[
+				"news_list",
+				"news_list_item	(index.html)"
+			],
+			[
+				"auto",
+				"autoHeight"
+			],
+			[
+				"list",
+				"list_ideals	(about.htm)"
+			],
+			[
+				"out",
+				"outerHeight"
+			],
+			[
+				"outer",
+				"outerHeight"
+			],
+			[
+				"_",
+				"_currentScroll"
+			],
+			[
+				"oute",
+				"outerHeight"
+			],
+			[
+				"scroll",
+				"scrollMask	(main.js)"
+			],
+			[
+				"metho",
+				"methods"
+			],
+			[
+				"f",
+				"fff"
+			],
+			[
+				"main_",
+				"main_content	(index.html)"
+			],
+			[
+				"lo",
+				"login_form	(index.html)"
+			],
+			[
+				"show",
+				"showNumpages"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"elem",
+				"elemid"
+			],
+			[
+				"forma",
+				"formatToLanguage"
+			],
+			[
+				"formats",
+				"formatsRus"
+			],
+			[
+				"chainde",
+				"chainedTo"
+			],
+			[
+				"pg",
+				"pgPrev"
+			],
+			[
+				"meh",
+				"methods"
+			],
+			[
+				"next",
+				"nextText"
+			],
+			[
+				"fu",
+				"fullPages"
+			],
+			[
+				"showPa",
+				"showPagination	(custom_pages.js)"
+			],
+			[
+				"hide",
+				"hidePagination	(custom_pages.js)"
+			],
+			[
+				"pages",
+				"pagesAbout	(about.htm)"
+			],
+			[
+				"pagination",
+				"paginationEl"
+			],
+			[
+				"obj",
+				"objContent"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"res",
+				"resHandler"
+			],
+			[
+				"send",
+				"sendXHR"
+			],
+			[
+				"qu",
+				"queueAjaxResponses"
+			],
+			[
+				"queueAjaxRe",
+				"queueAjaxRequests"
+			],
+			[
+				"sta",
+				"status	(app.js)"
+			],
+			[
+				"sum",
+				"summ"
+			],
+			[
+				"file",
+				"summFileSizes"
+			],
+			[
+				"path",
+				"pathArr"
+			],
+			[
+				"summ",
+				"summFileSizes"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"fil",
+				"filePath"
+			],
+			[
+				"parse",
+				"parseFilename"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"th",
+				"thead	(partners.sass)"
+			],
+			[
+				"curre",
+				"currentVal"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"kg",
+				"kg"
+			],
+			[
+				"to",
+				"to"
+			],
+			[
+				"Cal",
+				"CalculatorCs	(add_combine.jade)"
+			],
+			[
+				"add",
+				"add_combine	(calculatorCs.jade)"
+			],
+			[
+				"on",
+				"onChangeHandle"
+			],
+			[
+				"cac",
+				"calculatorCs	(calculatorCs.jade)"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"Cre",
+				"CreateObjRow"
+			],
+			[
+				"gds",
+				"gdsModal"
+			],
+			[
+				"func",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/projects/mattis/gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 2175,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/projects/mattis/jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 1087,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gallery.jade",
+			"settings":
+			{
+				"buffer_size": 687,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_gallery.sass",
+			"settings":
+			{
+				"buffer_size": 607,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/projects/mattis/common.blocks/slider/_slider.sass",
+			"settings":
+			{
+				"buffer_size": 1310,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/projects/mattis/sass/_colors.sass",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 215.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"Snippet: ",
+				"Snippet: button()"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"ja",
+				"Javascript Beautify"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 268.0,
+		"history":
+		[
+			"os.listdir()",
+			"os",
+			"CD",
+			"cd",
+			"ls",
+			"subl",
+			"--help",
+			"help",
+			"subl --help",
+			"?",
+			"subl --help",
+			"help",
+			"cmd",
+			"ls",
+			"list",
+			"gulp",
+			"ls",
+			"list",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/projects/mattis",
+		"/E/projects/mattis/common.blocks",
+		"/E/projects/mattis/common.blocks/menu/top",
+		"/E/projects/mattis/common.blocks/slider"
+	],
+	"file_history":
+	[
+		"/E/projects/akon/js/main.js",
+		"/E/projects/mattis/sass/main.sass",
+		"/E/projects/mattis/sass/_services.sass",
+		"/E/projects/mattis/common.blocks/menu/middle/menu.jade",
+		"/E/projects/mattis/common.blocks/menu/top/_menu.sass",
+		"/E/projects/mattis/common.blocks/menu/middle/_menu.sass",
+		"/E/projects/mattis/common.blocks/menu/_menu.sass",
+		"/E/projects/mattis/common.blocks/menu/menu-top/menu.jade",
+		"/E/projects/mattis/common.blocks/menu/menu-middle/menu.jade",
+		"/E/projects/mattis/common.blocks/menu/menu-middle/_menu.sass",
+		"/E/projects/mattis/jade/index.jade",
+		"/E/projects/mattis/js/main.js",
+		"/E/projects/mattis/common.blocks/menu/menu-top/_menu.sass",
+		"/E/projects/mattis/gulpfile.js",
+		"/E/projects/mattis/common.blocks/slider/slider.jade",
+		"/E/projects/mattis/common.blocks/menu/menu.jade",
+		"/E/projects/mattis/common.blocks/consultant/consultant.jade",
+		"/E/projects/mattis/index.html",
+		"/E/projects/mattis/common.blocks/logo/logo.jade",
+		"/E/projects/mattis/common.blocks/phone/phone.jade",
+		"/E/projects/mattis/common.blocks/_phone.sass",
+		"/E/projects/mattis/sass/common.blocks/menu/_menu.sass",
+		"/E/projects/mattis/sass/common.blocks/slider/_slider.sass",
+		"/E/projects/mattis/sass/common.blocks/_page.sass",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/User/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/projects/mattis/sass/common.blocks/_page-header.sass",
+		"/E/projects/mattis/sass/_theme.sass",
+		"/E/projects/mattis/.gitignore",
+		"/C/Users/User/AppData/Local/Temp/scp46642/www/mspbank.webtuner.ru/templates/js/metrojs/MetroJs.css",
+		"/C/Users/User/AppData/Local/Temp/scp50409/www/mspbank.webtuner.ru/templates/css/ie8.css",
+		"/C/Users/User/AppData/Local/Temp/scp57754/www/mspbank.webtuner.ru/templates/variant3/variant3.htm",
+		"/E/projects/mattis/css/main.css",
+		"/C/WebServers/home/vivat.ru/www/package.json",
+		"/C/WebServers/home/vivat.ru/www/gulpfile.js",
+		"/C/WebServers/home/vivat.ru/www/config.php",
+		"/E/projects/mattis/package.json",
+		"/E/projects/avtorenova/templates/index_left_a/index_left_a.htm",
+		"/E/projects/mattis/css/normalize.css",
+		"/E/projects/avtorenova/templates/js/main.js",
+		"/C/Users/User/AppData/Local/Temp/scp48126/www/soyuzopttorg.ru/templates/css/common.css",
+		"/E/projects/mattis/css/reset.css",
+		"/C/Users/User/AppData/Local/Temp/scp56123/www/autoreinoventica.webtuner.ru/templates/home_a/home_a.htm",
+		"/C/Users/User/AppData/Local/Temp/scp31729/www/autoreinoventica.webtuner.ru/templates/js/main.js",
+		"/C/Users/User/AppData/Local/Temp/scp40083/www/autoreinoventica.webtuner.ru/templates/index_left_a/index_left_a.htm",
+		"/C/Users/User/AppData/Local/Temp/scp42545/www/autoreinoventica.webtuner.ru/templates/index_a/index_a.htm",
+		"/C/Users/User/AppData/Local/Temp/scp42737/www/autoreinoventica.webtuner.ru/templates/index_a/index_a.css",
+		"/C/Users/User/AppData/Local/Temp/scp42217/www/autoreinoventica.webtuner.ru/templates/left_menu/left_menu.htm",
+		"/C/Users/User/AppData/Local/Temp/scp40986/www/autoreinoventica.webtuner.ru/templates/index_left_a/index_left_a.css",
+		"/C/Users/User/AppData/Local/Temp/scp57708/www/autoreinoventica.webtuner.ru/templates/css/media.css",
+		"/C/Users/User/AppData/Local/Temp/scp45642/www/autoreinoventica.webtuner.ru/templates/home_a/home_a.css",
+		"/E/projects/avtorenova/templates/index_left_a/index_left_a.css",
+		"/C/Users/User/AppData/Local/Temp/scp34249/www/autoreinoventica.webtuner.ru/templates/tmp/tmp.htm",
+		"/C/Users/User/AppData/Local/Temp/scp42176/www/autoreinoventica.webtuner.ru/templates/index/index.htm",
+		"/C/Users/User/AppData/Local/Temp/scp42361/www/autoreinoventica.webtuner.ru/templates/home/home.htm",
+		"/C/Users/User/AppData/Local/Temp/scp42546/www/autoreinoventica.webtuner.ru/templates/cont/cont.htm",
+		"/C/Users/User/AppData/Local/Temp/scp34796/www/autoreinoventica.webtuner.ru/templates/tmp/tmp.css",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_list.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/js/Calculator.js",
+		"/C/WebServers/home/vivat.ru/www/templates/js/add_combine.js",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_combine_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_modal_edit.htm",
+		"/E/projects/avtorenova/home.htm",
+		"/E/projects/avtorenova/templates/css/media.css",
+		"/C/Users/User/AppData/Local/Temp/scp50890/www/autoreinoventica.webtuner.ru/templates/js/main.js",
+		"/C/Users/User/AppData/Local/Temp/scp07491/www/test.soyuzopttorg.ru/templates/index_a_/index_a.htm",
+		"/C/Users/User/AppData/Local/Temp/scp26385/www/autoreinoventica.webtuner.ru/templates/home_a/home_a.htm",
+		"/C/Users/User/AppData/Local/Temp/scp24306/www/autoreinoventica.webtuner.ru/templates/home_a/home_a.css",
+		"/C/Users/User/AppData/Local/Temp/scp26081/www/autoreinoventica.webtuner.ru/templates/home/home.htm",
+		"/E/projects/avtorenova/home_a.htm",
+		"/E/projects/avtorenova/templates/home_a/home_a.css",
+		"/E/projects/avtorenova/templates/css/main.css",
+		"/E/projects/avtorenova/templates/img/border_divider.png",
+		"/E/projects/avtorenova/templates/js/jquery.cycle2.center.min.js",
+		"/E/projects/avtorenova/templates/css/jquery.bxslider.css",
+		"/E/projects/avtorenova/templates/css/owl.theme.css",
+		"/E/projects/avtorenova/home_a.css",
+		"/C/Users/User/AppData/Local/Temp/scp59334/www/autoreinoventica.webtuner.ru/templates/home_a/home_a.css",
+		"/E/projects/avtorenova/ftp/media.css",
+		"/C/Users/User/AppData/Local/Temp/scp44255/www/autoreinoventica.webtuner.ru/templates/home_a/home_a.htm",
+		"/E/projects/avtorenova/ftp/home_a.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/index/index.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/user_profile_view.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/home/home.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/review_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/carriers_catalog.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/my_cargo_sea_list.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/my_tenders_sea_list.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/css/mixins.css",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/user_profile_manage.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/user_photoalbums_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_railway_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_outsized_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/user_details.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_avto_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_avia_edit.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/user_contacts.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/user_activity.htm",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_sea_edit.htm",
+		"/E/projects/akon/sass/main.sass",
+		"/E/projects/akon/css/main.css",
+		"/C/WebServers/home/vivat.ru/www/templates/js/add_cargo.js",
+		"/C/WebServers/home/vivat.ru/www/templates/vivat/cargo_list_ajax.htm",
+		"/C/Users/User/AppData/Local/Temp/scp06500/www/acon.ma-gaz.ru/bitrix/templates/.default/components/bitrix/news.list/reviews/template.php",
+		"/C/Users/User/AppData/Local/Temp/scp28417/www/acon.ma-gaz.ru/bitrix/templates/.default/components/bitrix/form.result.list/qa_template_org/style.css",
+		"/C/Users/User/AppData/Local/Temp/scp16761/www/acon.ma-gaz.ru/bitrix/templates/.default/components/bitrix/form.result.list/qa_template_user/style.css",
+		"/C/Users/User/AppData/Local/Temp/scp18658/www/acon.ma-gaz.ru/bitrix/templates/.default/components/bitrix/form.result.list/qa_template_org/template.php",
+		"/C/Users/User/AppData/Local/Temp/scp03116/www/acon.ma-gaz.ru/bitrix/templates/.default/components/bitrix/form.result.list/qa_template_user/template.php",
+		"/C/Users/User/AppData/Local/Temp/scp01899/www/acon.ma-gaz.ru/bitrix/templates/.default/css/main.css",
+		"/C/Users/User/AppData/Local/Temp/scp30611/www/acon.ma-gaz.ru/reytingi/uo/index.php",
+		"/C/WebServers/home/vivat.ru/www/templates/js/main.js",
+		"/C/WebServers/home/vivat.ru/www/sass/main.sass",
+		"/C/WebServers/home/vivat.ru/www/templates/css/main.css",
+		"/C/Users/User/AppData/Local/Temp/scp35479/www/acon.ma-gaz.ru/bitrix/templates/acon_inner/header.php",
+		"/C/Users/User/AppData/Local/Temp/scp41695/www/acon.ma-gaz.ru/bitrix/templates/.default/components/akon/form.result.edit/infocentr_answer_org/template.php",
+		"/C/Users/User/AppData/Local/Temp/scp10598/www/acon.ma-gaz.ru/bitrix/templates/.default/components/bitrix/form.result.list/qa_template/template.php",
+		"/C/Users/User/AppData/Local/Temp/scp50171/www/acon.ma-gaz.ru/novosti/sobytiya-dnya/index.php",
+		"/C/Users/User/AppData/Local/Temp/scp47307/www/acon.ma-gaz.ru/bitrix/templates/acon_inner/footer.php",
+		"/C/Users/User/AppData/Local/Temp/scp57722/www/acon.ma-gaz.ru/bitrix/templates/acon/footer.php",
+		"/C/Users/User/AppData/Local/Temp/scp57742/www/acon.ma-gaz.ru/include/top_sidebar_banner.php",
+		"/C/WebServers/home/vivat.ru/www/vivat_work/add_modal.html",
+		"/C/Users/User/AppData/Local/Temp/scp00490/www/acon.ma-gaz.ru/include/middle_sidebar_banner.php",
+		"/C/Users/User/AppData/Local/Temp/scp52374/www/acon.ma-gaz.ru/include/top_banner.php",
+		"/C/Users/User/AppData/Local/Temp/scp53194/www/acon.ma-gaz.ru/include/top_widgets_banner.php",
+		"/C/Users/User/AppData/Local/Temp/scp34170/www/acon.ma-gaz.ru/bitrix/templates/acon/header.php",
+		"/C/Users/User/AppData/Local/Temp/scp54578/www/acon.ma-gaz.ru/bitrix/templates/acon_inner/header.php",
+		"/C/Users/User/AppData/Local/Temp/scp17993/www/acon.ma-gaz.ru/upload/rk/3c2/3c22ad663d34464bf5d4ae417ee496a8.jpg",
+		"/C/Users/User/AppData/Local/Temp/scp11251/www/acon.ma-gaz.ru/services/detail.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"C:\\WebServers\\home\\vivat.ru\\www\\templates\\vivat",
+			"C:\\WebServers\\home\\vivat.ru\\www\\vivat_work",
+			"C:\\WebServers\\home\\vivat.ru\\www\\jade",
+			"E:\\projects\\vivat\\sass",
+			"E:\\projects\\vivat\\jade",
+			"E:\\projects\\vivat\\sass",
+			"E:\\projects\\vivat\\jade"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"logo",
+			"link_menu",
+			"gutil",
+			"rename",
+			"bg_static",
+			"border_divider",
+			"btn_promo",
+			"media",
+			"btn_promo",
+			"255",
+			"png",
+			"/templates/img/photo.png",
+			"/cards.png",
+			"    <",
+			"bootstrap-datepicker3.min",
+			"font-awesome.min.css",
+			"star-rating.min.css",
+			"jcf.css",
+			"flags16.css",
+			"setMasks",
+			"sumTotals",
+			"saveBtn",
+			"sumTotals",
+			"calculateData",
+			"readDataFromRow",
+			"clearRow($el)",
+			"updateViewTotals($el)",
+			"onChangeHandle",
+			"clearRow",
+			"Calculator",
+			"load_point",
+			"banner",
+			"top_banner",
+			"clock",
+			"$status",
+			"pagination",
+			"clock",
+			"HOURS_LENGTH",
+			"unitsSelect",
+			"    \n",
+			"cargo_seats",
+			"select",
+			"select\\",
+			"select",
+			"addBtn",
+			"];\n",
+			"select",
+			"#goods",
+			"добавить товар",
+			"cargo_cost",
+			"disabled",
+			"cargo_cost",
+			"currency",
+			"wrapper",
+			"readDataFromRow",
+			"translator",
+			"submit",
+			"value",
+			"unit",
+			"});",
+			"cargo_seats",
+			"widgets",
+			"logo",
+			"top_sidebar",
+			"exchange",
+			"weather",
+			"top_sidebar_banner",
+			"partners",
+			"\"PROPERTY_CODE\" => array(\"\",\"\"),",
+			"img/",
+			"js/",
+			"css/",
+			"/dev",
+			"DETAIL_URL",
+			"img/",
+			"15px",
+			"});\n",
+			"purple",
+			"%\n",
+			"h3",
+			"items_list_link",
+			".owl-theme .owl-controls .owl-page span",
+			"_el",
+			"($){\n",
+			"1d1d1d",
+			"color",
+			"autoHeight",
+			"showPagination",
+			"block",
+			"display",
+			"pgPagination",
+			"getPaginationTemplate",
+			"\\",
+			"\"",
+			"objContent",
+			"options",
+			"pagEelements",
+			"subPages",
+			"subPages\nsubPages\nsubPages\nsubPages\nsubPages",
+			".text",
+			"text",
+			"pages",
+			"partners_table",
+			"_29",
+			"rform_",
+			"table",
+			"OnDelete_",
+			"OnSelectAll_",
+			"FORM_ADD",
+			"/dev",
+			"section",
+			"LIST_PAGE_URL",
+			"Maxim",
+			"chemaxa@gmail.com",
+			"chemaxa",
+			"draw_white_space",
+			"PHOTO_UPLOADER_TYPE",
+			"currency_list",
+			"USD",
+			"currency_list",
+			"updateViewTotals",
+			"id",
+			"updateViewTotals",
+			"CreateObjRow",
+			"this",
+			"addBtn",
+			"'.load_point'",
+			"this.id"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"106",
+			"clearRow()",
+			"updateViewTotals()",
+			"CalculatorProto",
+			"HOURS_MARK_LENGTH",
+			"\"PROPERTY_CODE\" => array(\"\",\"SOURCE_LOGO\"),",
+			"/bitrix/templates/.default/img/",
+			"/bitrix/templates/.default/js/",
+			"/bitrix/templates/.default/css/",
+			"",
+			"/bitrix/templates/.default/img/",
+			"h4",
+			"\\\\",
+			"'",
+			"this",
+			"settings",
+			"pageElements",
+			"",
+			"self",
+			"rootEl",
+			"csModal",
+			"clearRow",
+			"",
+			" .",
+			" ",
+			"",
+			"extra_short_input",
+			"ЭНЕРГОМАШ",
+			"79999999999",
+			"info@test.ru",
+			"999-99-99",
+			"999",
+			"Московскому",
+			"Московском",
+			"Московского",
+			"Западный",
+			"«Западный»",
+			"Западный",
+			"Западный район, 170 км Московского шоссе, ДНП «Фортуна»",
+			"999-99-99",
+			"999",
+			"act",
+			"/",
+			"/templates/img/",
+			"",
+			"k12332343",
+			"templates",
+			"strCntr",
+			"plrCntr",
+			"brdCntr",
+			"myStreamRef",
+			"dbCntrl",
+			"dbCntr.write",
+			"broadcasts",
+			"$dark-lilac",
+			"$lilac",
+			"/templates/img/",
+			"days",
+			"Days-webfont",
+			"h5",
+			"",
+			"option",
+			"",
+			"el",
+			"rowNumber",
+			"calculator",
+			"int5",
+			"12float3",
+			"6float3",
+			"2float3",
+			"6float3",
+			"12float3",
+			"2float3",
+			"6float3",
+			"12float3",
+			"2float3",
+			"6float3",
+			"12float3",
+			"2float3",
+			"6float3",
+			"12float3",
+			"2float3",
+			"6float3",
+			"12float3",
+			"this.checkParam",
+			"$csModal",
+			".12float3",
+			"dateinput",
+			".dateinput",
+			"_dateinput",
+			".dateinput",
+			".datepicker",
+			".wrapper_dateinput",
+			".dateinput",
+			"dateinput",
+			"timeinput",
+			"dateinput",
+			"",
+			"oversize",
+			"gen_cargo",
+			"Генеральный груз",
+			"cargo_icons",
+			"",
+			".country",
+			".city",
+			".country",
+			"li.country",
+			".countrys",
+			"",
+			"add_cargo/icons/handlewithcare.png",
+			"add_cargo/icons/temperature.png",
+			"add_cargo/icons/dontstack.png",
+			"add_cargo/icons/waterproof.png",
+			"add_cargo/icons/fragile.png",
+			"add_cargo/icons/transhipment.png",
+			"span.txt",
+			"span",
+			"\"",
+			".copy_btn",
+			".primary_button",
+			"primary_button",
+			" &#9733;",
+			"updateViewFirstRow",
+			"CreateObjRow",
+			"volumeQty",
+			"nettoQty",
+			"bruttoQty",
+			"seatsQty"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "E:\\projects\\mattis"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/projects/mattis/gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								707,
+								707
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/Seti_UI/Langs/Gulpfile JS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/projects/mattis/jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1040
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "gallery.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_gallery.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/projects/mattis/common.blocks/slider/_slider.sass",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								978,
+								897
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/projects/mattis/sass/_colors.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 167.0
+	},
+	"output.find_results":
+	{
+		"height": 92.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

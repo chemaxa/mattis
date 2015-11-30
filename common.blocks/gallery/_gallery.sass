@@ -11,22 +11,32 @@
 		width: 100%
 		top: 2px
 		background: #fff
+	&__list
 
 	&__title
 		border-left: 2px solid $light-green
 		color: $title-gallery
 		margin-top: 40px
 		margin-bottom: 25px
+		padding-left: 5px
 		&_best-offers
 			font-size: 1.7rem
 			text-transform: uppercase
 		&_special-offers
 			font-size: 1.4rem
+			margin-bottom: 30px
 	&__best-offers,&__special-offers
 		display: inline-block
 		vertical-align: top
+	&__special-offers		
+		max-width: 225px
 	&__best-offers		
 		max-width: 730px
 	&__item
-		display: inline-block		
-		max-width: 226px
+		display: inline-block
+		max-width: 220px
+		background-color: #FFF
+		padding: 12px
+		margin-right: 20px
+		&:nth-child(3n+3)
+			margin-right: 0

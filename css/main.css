@@ -194,19 +194,19 @@
   left: 38px;
 }
 
-.menu__item_new-building:hover{
+.menu__item-description_new-building:hover{
   background-color: #4eb9e5;
 }
 
-.menu__item_rent-building:hover{
+.menu__item-description_rent-building:hover{
   background-color: #f2b237;
 }
 
-.menu__item_resale-building:hover{
+.menu__item-description_resale-building:hover{
   background-color: #eede58;
 }
 
-.menu__item_cottage-building:hover{
+.menu__item-description_cottage-building:hover{
   background-color: #9cd35a;
 }
 
@@ -337,6 +337,7 @@
   color: #3b3b3b;
   margin-top: 40px;
   margin-bottom: 25px;
+  padding-left: 5px;
 }
 .gallery__title_best-offers{
   font-size: 1.7rem;
@@ -344,6 +345,7 @@
 }
 .gallery__title_special-offers{
   font-size: 1.4rem;
+  margin-bottom: 30px;
 }
 
 .gallery__best-offers,
@@ -352,11 +354,21 @@
   vertical-align: top;
 }
 
+.gallery__special-offers{
+  max-width: 225px;
+}
+
 .gallery__best-offers{
   max-width: 730px;
 }
 
 .gallery__item{
   display: inline-block;
-  max-width: 226px;
+  max-width: 220px;
+  background-color: #ffffff;
+  padding: 12px;
+  margin-right: 20px;
+}
+.gallery__item:nth-child(3n+3){
+  margin-right: 0;
 }
