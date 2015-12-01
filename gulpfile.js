@@ -30,9 +30,6 @@ gulp.task('demon', function() {
             script: 'gulpfile.js',
             watch: [params.blocks, params.jadeSrc, params.sassSrc],
             ext: 'jade sass js',
-            env: {
-                'NODE_ENV': 'development'
-            },
             ignore: [
                 '.git',
                 'node_modules/**/node_modules'
@@ -67,6 +64,7 @@ gulp.task('sass', function() {
         //.pipe(sourcemaps.write('./')) 
         .pipe(csscomb())
         .pipe(gulp.dest(params.cssDst))
+        .pipe(browserSync.stream());
 });
 
 // Css  styling

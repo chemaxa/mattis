@@ -3,23 +3,36 @@
   +e.best-offers
     +e.title_best-offers Лучшие предложения
     +e.list
-      while n < 6
+      while n < 3
         +e.item
-          +e('img').item-logo(src='/img/house_photo.jpg')
+          +e('a').item-link_logo(href="#")
+            +e('img').item-logo(src='/img/house_photo.jpg')
           +e.item-description 3-комн. квартира, метро Спортивная, Чкаловская
+          +e.item-cost 5 420 000 руб.
+          +e('a').item-link_detail(href="#") Подробнее
+
+        +e.item
+          +e('a').item-link_logo(href="#")
+            +e('img').item-logo(src='/img/house_photo.jpg')
+          +e.item-description 2-комн. квартира, метро Невский проспект, Адмиралтейская, Пушкинская, Академическая, Девяткино
           +e.item-cost 7 #{n++}00 000 руб.
-          +e('a').item-detail(href="#") Подробнее
+          +e('a').item-link_detail(href="#") Подробнее
         
 
   +e.special-offers
     +e.title_special-offers Спецпредложения
-    -n=0
     +e.list
-    while n < 2
       +e.item_special-offers
-        +e('img').item-logo(src='/img/house_photo.jpg')
+        +e('a').item-link_logo(href="#")
+          +e('img').item-logo(src='/img/house_photo.jpg')
         +e.item-description 3-комн. квартира, метро Спортивная, Чкаловская
         +e.item-cost 7 #{n++}00 000 руб.
-        +e('a').item-detail(href="#") Подробнее
+        +e('a').item-link_detail(href="#") Подробнее
         
+      +e.item_special-offers
+        +e('a').item-link_logo(href="#")
+          +e('img').item-logo(src='/img/house_photo.jpg')
+        +e.item-description 3-комн. квартира, метро Гражданский проспект, Проспект просвещения
+        +e.item-cost 7 #{n++}00 000 руб.
+        +e('a').item-link_detail(href="#") Подробнее
 

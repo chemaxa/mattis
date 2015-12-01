@@ -14,4 +14,17 @@ $(function() {
             log: false
         });
     }
+
+    if ($('.gallery').length) {
+        $(window).load(function() {
+            var maxHeight = 0;
+            $('.gallery__item').each(function() {
+                if (this.offsetHeight > maxHeight)
+                    maxHeight = this.offsetHeight;
+                console.log(this.offsetHeight);
+            });
+            console.log('Set: ', maxHeight);
+            $('.gallery__item').height(maxHeight);
+        });
+    }
 });
