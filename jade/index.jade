@@ -1,35 +1,22 @@
 include mixins/bemto
 doctype html
 html(lang='ru').html
-  head
-    meta(charset='UTF-8')
-    title Mattis
-    link(rel='shortcut icon', href='/favicon.ico')
-    link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin,cyrillic', rel='stylesheet', type='text/css')
-    link(rel='stylesheet', href='css/normalize.css')
-    link(rel='stylesheet', href='css/main.css')
-    // jquery
-    script(src='js/jquery-2.1.4.min.js')
-    // Slider
-    script(src='js/jquery.cycle2.min.js')
-    script(src='js/jquery.cycle2.center.min.js')
-    script(src='js/jquery.cycle2.caption2.min.js')
-    // Main JS
-    script(src='js/main.js')
+	include ../common.blocks/head.jade
 
-  +b('body').page
-   //- +e('header').header
-   //-    +b.content-wrapper
-   //-      include ../common.blocks/logo/logo
-   //-      include ../common.blocks/phone/phone
-   //-      include ../common.blocks/consultant/consultant
-   //-    include ../common.blocks/menu/top/menu
-   //-  include ../common.blocks/slider/slider
-  //- section
-  //-   include ../common.blocks/menu/middle/menu
-  //- .gallery__wrapper
-  //-   .gallery__topline
-  //-   include ../common.blocks/gallery/gallery
-  .features__wrapper
-    include ../common.blocks/features/features
-
+	+b('body').page
+	//- 	+e('header').header
+	//- 		+b.content-wrapper
+	//- 			include ../common.blocks/logo/logo
+	//- 			include ../common.blocks/phone/phone
+	//- 			include ../common.blocks/consultant/consultant
+	//- 		include ../common.blocks/menu/top/menu
+	//- 	include ../common.blocks/slider/slider
+	//- section
+	//- 	include ../common.blocks/menu/middle/menu
+	//- .gallery__wrapper
+	//- 	.gallery__topline
+	//- 	include ../common.blocks/gallery/gallery
+	//- .features__wrapper
+	//- 	include ../common.blocks/features/features
+	.about__wrapper
+		include ../common.blocks/about/about
