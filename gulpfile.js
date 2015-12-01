@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     csscomb = require('gulp-csscomb'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
+    nodemon = require('gulp-nodemon'),
     reload = browserSync.reload;
 
 // Params
@@ -20,7 +21,30 @@ var params = {
 };
 
 // Default Task
-gulp.task('default', ['watch', 'sass', 'jade', 'server', 'csscomb']);
+// Default Task
+gulp.task('default', ['demon']);
+//gulp.task('default', ['watch', 'sass', 'jade', 'server', 'csscomb']);
+//Demon for nodemon
+gulp.task('demon', function() {
+    nodemon({
+            script: 'gulpfile.js',
+            watch: [params.blocks, params.jadeSrc, params.sassSrc],
+            ext: 'jade sass js',
+            env: {
+                'NODE_ENV': 'development'
+            },
+            ignore: [
+                '.git',
+                'node_modules/**/node_modules'
+            ],
+        })
+        .on('start', ['watch'])
+        .on('change', ['watch'])
+        .on('restart', function() {
+            console.log('restarted!');
+        });
+});
+
 
 // Watch Task
 gulp.task('watch', ['sass', 'jade', 'server'], function() {
@@ -29,7 +53,8 @@ gulp.task('watch', ['sass', 'jade', 'server'], function() {
     //gulp.watch([params.jsSrc + '/*.js'], ['js']); */
     gulp.watch([params.blocks + '/**/*'], ['sass', 'jade']); //Watch on files in common blocks directory
 });
-gulp.task('build', ['sass', 'jade', 'server'])
+
+
 
 // Sass Complie Task
 gulp.task('sass', function() {
@@ -45,11 +70,11 @@ gulp.task('sass', function() {
 });
 
 // Css  styling
-gulp.task('csscomb', function() {
+/*gulp.task('csscomb', function() {
     gulp.src(params.cssDst + '/' + params.currentFile + '.css')
         .pipe(csscomb())
         .pipe(gulp.dest(params.cssDst))
-});
+});*/
 
 // Jade
 gulp.task('jade', function() {
