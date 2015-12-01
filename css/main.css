@@ -1,5 +1,23 @@
-/*Service styles*/
+/*Service & headings styles*/
 /*Colors*/
+.h1{
+  color: #3b3b3b;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.h2{
+  color: #3b3b3b;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.h3{
+  color: #3b3b3b;
+  font-weight: 500;
+  font-size: 1.23rem;
+}
+
 *,
 *:after,
 *:before{
@@ -11,7 +29,9 @@
 .phone,
 .consultant,
 .consultant__logo,
-.consultant__description{
+.consultant__description,
+.copyright,
+.soclinks{
   display: inline-block;
   vertical-align: top;
 }
@@ -41,16 +61,12 @@
   font-family: "Roboto", sans-serif;
   color: #606060;
 }
-
 .page__header{
   background: url(../img/top_city.png) no-repeat center top;
   padding-top: 20px;
 }
-
-.h1{
-  color: #3b3b3b;
-  font-weight: 500;
-  font-size: 2rem;
+.page__footer{
+  background: url(../img/footer_bg.jpg);
 }
 
 .link{
@@ -465,19 +481,193 @@
   background: url(../img/feature_4_icon.png) no-repeat 0 0;
 }
 
+.about{
+  padding: 30px 0;
+}
 .about_centered{
   margin: 0 auto;
   width: 960px;
 }
-
 .about__wrapper{
   background: url(../img/offers_bg.png);
   position: relative;
   margin-top: 4px;
   margin-bottom: 4px;
 }
-
 .about__title{
   border-left: 3px solid #2c932c;
   padding-left: 5px;
+  margin-bottom: 30px;
+}
+.about__content{
+  padding-right: 10px;
+}
+.about__content_inlined{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 720px;
+}
+
+.employer_about{
+  vertical-align: top;
+  max-width: 226px;
+  float: right;
+  background-color: #ffffff;
+  padding: 20px 25px;
+  margin-top: -40px;
+  box-shadow: 1px -1px 1px 1px rgba(0, 0, 0, 0.25);
+  border: 1px solid #e7e7e7;
+}
+
+.employer__title{
+  font-size: 1.23rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.employer__photo-mask{
+  text-align: center;
+  max-width: 180px;
+  max-height: 120px;
+  margin: 15px 0;
+  overflow: hidden;
+}
+
+.employer__name{
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #2c932c;
+}
+
+.employer__post{
+  line-height: 2.5;
+}
+
+.employer__email{
+  text-decoration: none;
+}
+
+.news_about{
+  padding-top: 10px;
+}
+
+.news_centered{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.news__link-archive{
+  font-size: 1.07rem;
+  float: right;
+}
+
+.news__title{
+  border-left: 3px solid #2c932c;
+  padding-left: 5px;
+}
+
+.news__item{
+  display: inline-block;
+  vertical-align: top;
+  max-width: 49%;
+}
+.news__item:first-child{
+  padding-right: 15px;
+}
+
+.news__item-title{
+  margin: 0;
+}
+
+.news__item-date{
+  color: #767e89;
+  margin: 5px 0;
+}
+
+.news__item-link_detail{
+  float: right;
+}
+
+.news__item-description{
+  padding-left: 200px;
+}
+
+.news__item-link_logo{
+  display: block;
+  float: left;
+  margin-right: 15px;
+  padding: 0;
+  box-shadow: 1px -1px 1px 1px rgba(0, 0, 0, 0.25);
+  border: 1px solid #ffffff;
+  overflow: hidden;
+  max-width: 185px;
+  max-height: 130px;
+}
+
+.copyright__text{
+  color: #ffffff;
+}
+
+@font-face{
+  font-family: "socicon";
+  src: url("../fonts/socicon.eot"), url("../fonts/socicon.eot?#iefix") format("embedded-opentype"), url("../fonts/socicon.woff") format("woff"), url("../fonts/socicon.ttf") format("truetype"), url("../fonts/socicon.svg#socicon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before{
+  font-family: "socicon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="socicon-"]:before,
+[class*=" socicon-"]:before{
+  font-family: "socicon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.socicon-twitter:before{
+  content: "\e040";
+}
+
+.socicon-skype:before{
+  content: "\e046";
+}
+
+.socicon-instagram:before{
+  content: "\e057";
+}
+
+.socicon-facebook:before{
+  content: "\e041";
+}
+
+.socicon-vkontakte:before{
+  content: "\e01a";
+}
+
+.soclinks__item{
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 115px;
+  padding: 4px 7px 0px;
+  font-size: 1.5rem;
+  margin-right: 5px;
 }
