@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"maxHeight"
+			],
+			[
 				"_co",
 				"_cottage-building"
 			],
@@ -510,10 +514,6 @@
 			[
 				"gds",
 				"gdsModal"
-			],
-			[
-				"func",
-				"function"
 			]
 		]
 	},
@@ -539,7 +539,7 @@
 			"file": "gallery.jade",
 			"settings":
 			{
-				"buffer_size": 687,
+				"buffer_size": 745,
 				"line_ending": "Windows"
 			}
 		},
@@ -547,23 +547,7 @@
 			"file": "_gallery.sass",
 			"settings":
 			{
-				"buffer_size": 607,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/projects/mattis/common.blocks/slider/_slider.sass",
-			"settings":
-			{
-				"buffer_size": 1310,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/projects/mattis/sass/_colors.sass",
-			"settings":
-			{
-				"buffer_size": 295,
+				"buffer_size": 798,
 				"line_ending": "Windows"
 			}
 		}
@@ -689,17 +673,21 @@
 	[
 		"/E/projects/mattis",
 		"/E/projects/mattis/common.blocks",
-		"/E/projects/mattis/common.blocks/menu/top",
+		"/E/projects/mattis/common.blocks/menu",
+		"/E/projects/mattis/common.blocks/menu/middle",
 		"/E/projects/mattis/common.blocks/slider"
 	],
 	"file_history":
 	[
+		"/E/projects/mattis/common.blocks/slider/slider.jade",
+		"/E/projects/mattis/sass/_colors.sass",
+		"/E/projects/mattis/common.blocks/menu/middle/_menu.sass",
+		"/C/Users/User/AppData/Local/Temp/scp40129/www/portspb.webtuner.ru/templates/js/common_new.js",
 		"/E/projects/akon/js/main.js",
 		"/E/projects/mattis/sass/main.sass",
 		"/E/projects/mattis/sass/_services.sass",
 		"/E/projects/mattis/common.blocks/menu/middle/menu.jade",
 		"/E/projects/mattis/common.blocks/menu/top/_menu.sass",
-		"/E/projects/mattis/common.blocks/menu/middle/_menu.sass",
 		"/E/projects/mattis/common.blocks/menu/_menu.sass",
 		"/E/projects/mattis/common.blocks/menu/menu-top/menu.jade",
 		"/E/projects/mattis/common.blocks/menu/menu-middle/menu.jade",
@@ -708,7 +696,6 @@
 		"/E/projects/mattis/js/main.js",
 		"/E/projects/mattis/common.blocks/menu/menu-top/_menu.sass",
 		"/E/projects/mattis/gulpfile.js",
-		"/E/projects/mattis/common.blocks/slider/slider.jade",
 		"/E/projects/mattis/common.blocks/menu/menu.jade",
 		"/E/projects/mattis/common.blocks/consultant/consultant.jade",
 		"/E/projects/mattis/index.html",
@@ -819,9 +806,7 @@
 		"/C/Users/User/AppData/Local/Temp/scp52374/www/acon.ma-gaz.ru/include/top_banner.php",
 		"/C/Users/User/AppData/Local/Temp/scp53194/www/acon.ma-gaz.ru/include/top_widgets_banner.php",
 		"/C/Users/User/AppData/Local/Temp/scp34170/www/acon.ma-gaz.ru/bitrix/templates/acon/header.php",
-		"/C/Users/User/AppData/Local/Temp/scp54578/www/acon.ma-gaz.ru/bitrix/templates/acon_inner/header.php",
-		"/C/Users/User/AppData/Local/Temp/scp17993/www/acon.ma-gaz.ru/upload/rk/3c2/3c22ad663d34464bf5d4ae417ee496a8.jpg",
-		"/C/Users/User/AppData/Local/Temp/scp11251/www/acon.ma-gaz.ru/services/detail.php"
+		"/C/Users/User/AppData/Local/Temp/scp54578/www/acon.ma-gaz.ru/bitrix/templates/acon_inner/header.php"
 	],
 	"find":
 	{
@@ -846,6 +831,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"adjust",
+			"all_news",
+			"all_news2",
+			"all_news",
 			"logo",
 			"link_menu",
 			"gutil",
@@ -969,11 +958,7 @@
 			"updateViewTotals",
 			"id",
 			"updateViewTotals",
-			"CreateObjRow",
-			"this",
-			"addBtn",
-			"'.load_point'",
-			"this.id"
+			"CreateObjRow"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1125,7 +1110,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1215,7 +1200,7 @@
 						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1314,15 +1299,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 687,
+						"buffer_size": 745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								419,
-								419
+								115,
+								115
 							]
 						],
 						"settings":
@@ -1330,6 +1315,31 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1340,51 +1350,26 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
@@ -1395,7 +1380,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1404,15 +1389,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 607,
+						"buffer_size": 798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								186,
-								186
+								697,
+								697
 							]
 						],
 						"settings":
@@ -1420,6 +1405,31 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1430,237 +1440,36 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/projects/mattis/common.blocks/slider/_slider.sass",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								978,
-								897
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
-						"translation.y": 675.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/E/projects/mattis/sass/_colors.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 295,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								289,
-								289
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 268.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

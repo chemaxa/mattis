@@ -20,17 +20,18 @@ var params = {
 };
 
 // Default Task
-gulp.task('default', ['watch', 'sass', 'jade', 'browser-sync', 'csscomb']);
+gulp.task('default', ['watch', 'sass', 'jade', 'server', 'csscomb']);
 
 // Watch Task
-gulp.task('watch', ['sass', 'jade', 'browser-sync'], function() {
+gulp.task('watch', ['sass', 'jade', 'server'], function() {
     gulp.watch([params.sassSrc + '/*.sass'], ['sass']);
     gulp.watch([params.jadeSrc + '/*.jade'], ['jade']);
     //gulp.watch([params.jsSrc + '/*.js'], ['js']); */
     gulp.watch([params.blocks + '/**/*'], ['sass', 'jade']); //Watch on files in common blocks directory
 });
-gulp.task('build', ['sass', 'jade', 'browser-sync'])
-    // Sass Complie Task
+gulp.task('build', ['sass', 'jade', 'server'])
+
+// Sass Complie Task
 gulp.task('sass', function() {
     gulp.src([params.sassSrc + '/main.sass'])
         //.pipe(sourcemaps.init())
@@ -61,7 +62,7 @@ gulp.task('jade', function() {
 });
 
 // Static server
-gulp.task('browser-sync', function() {
+gulp.task('server', function() {
     var files = [
         //params.jadeSrc + '/*.html',
         params.cssDst + '/*.css',
