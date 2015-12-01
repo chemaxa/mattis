@@ -396,6 +396,12 @@
 .gallery__item-logo{
   padding-bottom: 20px;
 }
+.gallery__item-link_logo{
+  display: block;
+  max-width: 200px;
+  max-height: 130px;
+  overflow: hidden;
+}
 .gallery__item-link_detail{
   position: absolute;
   bottom: 20px;

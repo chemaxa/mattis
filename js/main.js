@@ -21,9 +21,7 @@ $(function() {
             $('.gallery__item').each(function() {
                 if (this.offsetHeight > maxHeight)
                     maxHeight = this.offsetHeight;
-                console.log(this.offsetHeight);
             });
-            console.log('Set: ', maxHeight);
             $('.gallery__item').height(maxHeight);
         });
     }
