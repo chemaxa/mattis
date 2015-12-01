@@ -22,5 +22,10 @@ html(lang='ru').html
 		//- 	include ../common.blocks/about/about
 		+e('footer').footer
 			+b.content-wrapper
-				include ../common.blocks/copyright/copyright
+				+b.copyright
+					+e.text
+						|© 2015 Маттис — агентство недвижимости
 				include ../common.blocks/soclinks/soclinks
+				+b.copyright
+					+e.text Разработка сайта
+					+e('img').image(src='/img/logo_webdom.png')

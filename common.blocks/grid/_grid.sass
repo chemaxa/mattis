@@ -1,0 +1,25 @@
+// grid variables
+$grid-columns: 12
+$grid-max-width: 65em
+ 
+ 
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 20em)"
+$breakpoint-medium: "only screen and (min-width: 30em)"
+
+.grid__wrapper, .grid__row
+	@extend .clearfix
+      
+[class*='column-']
+	float: left
+  padding: 1em
+  width: 100%
+  min-height: 1px
+@media #{$breakpoint-medium}
+	.wrapper
+		width: 95%
+		max-width: $grid-max-width
+
+	@for $i from 1 through $grid-columns
+		.column-#{$i}
+    	width: 100% / $grid-columns * $i
