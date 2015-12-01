@@ -20,12 +20,15 @@ html(lang='ru').html
 		//- 	include ../common.blocks/features/features
 		//- .about__wrapper
 		//- 	include ../common.blocks/about/about
-		+e('footer').footer
-			+b.content-wrapper
-				+b.copyright
-					+e.text
-						|© 2015 Маттис — агентство недвижимости
-				include ../common.blocks/soclinks/soclinks
-				+b.copyright
-					+e.text Разработка сайта
-					+e('img').image(src='/img/logo_webdom.png')
+		//- +e('footer').footer
+		//- 	+b.content-wrapper
+		//- 		+b.grid__wrapper
+		//- 			+b.grid__wrapper
+		//- 			+b.copyright
+		//- 				+e.text
+		//- 					|© 2015 Маттис — агентство недвижимости
+		//- 			include ../common.blocks/soclinks/soclinks
+		//- 			+b.copyright
+		//- 				+e.text Разработка сайта
+		//- 				+e('img').image(src='/img/logo_webdom.png')
+		include ../common.blocks/grid/grid

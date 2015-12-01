@@ -1,25 +1,34 @@
 // grid variables
 $grid-columns: 12
-$grid-max-width: 65em
- 
+$grid-max-width: 960px
+$grid-gutter-width: 30px
  
 // breakpoints
-$breakpoint-small: "only screen and (min-width: 20em)"
-$breakpoint-medium: "only screen and (min-width: 30em)"
+$breakpoint-small: "only screen and (min-width: 320px)"
+$breakpoint-medium: "only screen and (min-width: 768px)"
+
+span
+	display: block
+	background: #ffb283
+	padding: 1em 0
+	text-align: center
 
 .grid__wrapper, .grid__row
 	@extend .clearfix
       
-[class*='column-']
+[class*='grid__col-']
 	float: left
-  padding: 1em
-  width: 100%
-  min-height: 1px
+	padding: $grid-gutter-width
+	width: 100%
+	min-height: 1px
+
 @media #{$breakpoint-medium}
-	.wrapper
+	.grid__wrapper
 		width: 95%
 		max-width: $grid-max-width
+		margin: 0 auto
 
 	@for $i from 1 through $grid-columns
-		.column-#{$i}
+		.grid__col-#{$i}
     	width: 100% / $grid-columns * $i
+
