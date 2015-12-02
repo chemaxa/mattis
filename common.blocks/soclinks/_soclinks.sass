@@ -1,3 +1,16 @@
+.soclinks
+  margin: 20px 0
+  @extend .inline-block
+  &__item
+    @extend .inline-block
+    color: #fff
+    text-decoration: none
+    border: 1px solid #fff
+    border-radius: 115px
+    padding: 4px 7px 0px
+    font-size: 1.5rem
+    margin-right: 5px
+
 @font-face
   font-family: "socicon"
   src: url("../fonts/socicon.eot"), url("../fonts/socicon.eot?#iefix") format("embedded-opentype"), url("../fonts/socicon.woff") format("woff"), url("../fonts/socicon.ttf") format("truetype"), url("../fonts/socicon.svg#socicon") format("svg");
@@ -38,15 +51,4 @@
 	content: "\e041"  
 .socicon-vkontakte:before
 	content: "\e01a" 
-.soclinks
-	@extend .inline-block
 
-	&__item
-		color: #fff
-		text-decoration: none
-		display: inline-block
-		border: 1px solid #fff
-		border-radius: 115px
-		padding: 4px 7px 0px
-		font-size: 1.5rem
-		margin-right: 5px
