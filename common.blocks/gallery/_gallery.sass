@@ -1,24 +1,34 @@
 .gallery
-	padding-top: 40px
-	padding-bottom: 30px
+	&_inlined
+		@extend .inline-block
 	&_centered
 		margin: 0 auto
 		width: 960px
 	&__wrapper
 		background: url(../img/offers_bg.png)
 		position: relative
+		padding-top: 40px
+		padding-bottom: 30px
+
 	&__topline
 		height: 3px
 		position: absolute
 		width: 100%
 		top: 2px
 		background: #fff
+	&__bottomline
+		height: 3px
+		position: absolute
+		width: 100%
+		bottom: 2px
+		background: #fff		
 	&__list
 
 	&__title
 		border-left: 3px solid $green
 		color: $title-color
 		margin-bottom: 25px
+		margin-top: 10px
 		padding-left: 5px
 		&_best-offers
 			font-size: 1.7rem
@@ -62,8 +72,8 @@
 		font-weight: 500
 		background: url(../img/cost_icon.png) no-repeat 20px 2px
 	&__item-logo
-		padding-bottom: 20px
-
+	&__item-description
+		padding-top: 20px
 	&__item-link
 		&_logo
 			@extend .inline-block
@@ -83,3 +93,5 @@
 			text-decoration: none
 			text-align: center
 			font-size: 1.07rem
+			&:hover
+				background-color: $middle-green

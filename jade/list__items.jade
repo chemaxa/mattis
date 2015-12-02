@@ -1,0 +1,66 @@
+include mixins/bemto
+doctype html
+html(lang='ru').html
+	include ../common.blocks/head.jade
+	link(rel="stylesheet", href="css/list__items.css")
+	+b('body').page
+		+e('header').header
+			.grid__wrapper
+				include ../common.blocks/logo/logo
+				include ../common.blocks/phone/phone
+				include ../common.blocks/consultant/consultant
+			include ../common.blocks/menu/top/menu
+		.gallery__wrapper
+			.grid__wrapper
+				.grid__row
+					.grid__col-3
+						+b('a').button_bid._inlined._sidebar(href="") Продаете комнату/квартиру?
+						+b.employer_inlined
+							+e.title Сотрудник месяца
+							+e.photo-mask
+								+e(img).photo(src='/img/employee_photo.jpg')
+							+e.name Лисова Людмила Александровна
+							+e.post Консультант по ипотеке
+							+e.phone 8 (812) 666-74-43
+							+e(a).email.link(href="mailto:ipoteka@mattis.spb.ru") ipoteka@mattis.spb.ru
+					.grid__col-9
+						include ../common.blocks/breadcrumbs/breadcrumbs
+						+b('section').gallery_inlined
+							+e.best-offers
+								+e('h1').title.h1 Вторичная недвижимость
+								+e.list
+									-var n=0
+									while n < 3
+										+e.item
+											+e('a').item-link_logo.link(href="#")
+												+e('img').item-logo(src='/img/house_photo.jpg')
+											+e.item-description 3-комн. квартира, метро Спортивная, Чкаловская
+											+e.item-cost 5 420 000 руб.
+											+e('a').item-link_detail.link(href="#") Подробнее
+
+										+e.item
+											+e('a').item-link_logo.link(href="#")
+												+e('img').item-logo(src='/img/house_photo.jpg')
+											+e.item-description 2-комн. квартира, метро Невский проспект, Адмиралтейская, Пушкинская, Академическая, Девяткино
+											+e.item-cost 7 #{n++}00 000 руб.
+											+e('a').item-link_detail.link(href="#") Подробнее
+						include ../common.blocks/pagination/pagination
+						include ../common.blocks/text/text
+			.gallery__bottomline
+		include ../common.blocks/news/news
+		.features__wrapper
+			include ../common.blocks/features/features
+		+e('footer').footer
+			+b.grid__wrapper
+				+b.grid__row
+					+b.grid__col-4
+						+b.copyright
+							+e.text_light
+								|© 2015 Маттис — агентство недвижимости
+						include ../common.blocks/soclinks/soclinks
+						+b.copyright
+							+e.text_gray Разработка сайта
+							+e('img').image(src='/img/logo_webdom.png')
+					+b.grid__col-8
+						include ../common.blocks/menu/bottom/menu
+						+b('a').button_bid._bottom._floated(href="") Оставить заявку

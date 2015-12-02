@@ -1,0 +1,18 @@
+-var n=0
++e.best-offers
+  +e.title_best-offers Лучшие предложения
+  +e.list
+    while n < 3
+      +e.item
+        +e('a').item-link_logo.link(href="#")
+          +e('img').item-logo(src='/img/house_photo.jpg')
+        +e.item-description 3-комн. квартира, метро Спортивная, Чкаловская
+        +e.item-cost 5 420 000 руб.
+        +e('a').item-link_detail.link(href="#") Подробнее
+
+      +e.item
+        +e('a').item-link_logo.link(href="#")
+          +e('img').item-logo(src='/img/house_photo.jpg')
+        +e.item-description 2-комн. квартира, метро Невский проспект, Адмиралтейская, Пушкинская, Академическая, Девяткино
+        +e.item-cost 7 #{n++}00 000 руб.
+        +e('a').item-link_detail.link(href="#") Подробнее

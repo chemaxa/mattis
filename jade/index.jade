@@ -5,13 +5,13 @@ html(lang='ru').html
 
 	+b('body').page
 		+e('header').header
-			+b.content-wrapper
+			+b.grid__wrapper
 				include ../common.blocks/logo/logo
 				include ../common.blocks/phone/phone
 				include ../common.blocks/consultant/consultant
 			include ../common.blocks/menu/top/menu
 		include ../common.blocks/slider/slider
-		section.content-wrapper
+		.grid__wrapper
 			include ../common.blocks/menu/middle/menu
 		.gallery__wrapper
 			.gallery__topline
@@ -21,17 +21,16 @@ html(lang='ru').html
 		.about__wrapper
 			include ../common.blocks/about/about
 		+e('footer').footer
-			+b.content-wrapper
-				+b.grid__wrapper
-					+b.grid__row
-						+b.grid__col-4
-							+b.copyright
-								+e.text_light
-									|© 2015 Маттис — агентство недвижимости
-							include ../common.blocks/soclinks/soclinks
-							+b.copyright
-								+e.text_light Разработка сайта
-								+e('img').image(src='/img/logo_webdom.png')
-						+b.grid__col-8
-							include ../common.blocks/menu/bottom/menu
-							+b('a').button_bid._bottom._floated(href="") Оставить заявку
+			+b.grid__wrapper
+				+b.grid__row
+					+b.grid__col-4
+						+b.copyright
+							+e.text_light
+								|© 2015 Маттис — агентство недвижимости
+						include ../common.blocks/soclinks/soclinks
+						+b.copyright
+							+e.text_gray Разработка сайта
+							+e('img').image(src='/img/logo_webdom.png')
+					+b.grid__col-8
+						include ../common.blocks/menu/bottom/menu
+						+b('a').button_bid._inlined._bottom._floated(href="") Оставить заявку

@@ -1,9 +1,9 @@
 +b.news_centered._about
 	+e('h2').title.h2 Новости
-		+e('a').link.news__link-archive(href="#") Архив новостей
+		+e('a').link.news__link-archive.link(href="#") Архив новостей
 	+e.list
 		+e.item
-			+e('a').item-link_logo(href="#")
+			+e('a').item-link_logo.link(href="#")
 				+e('img').item-photo-image(src='/img/news_photo.jpg')
 			+b('h3').h3.news__item-title Выставка квартир
 			+e.item-date 10 ноября 2016
@@ -11,7 +11,7 @@
 			+b('a').link.news__item-link_detail(href="#") читать дальше
 
 		+e.item
-			+e('a').item-link_logo(href="#")
+			+e('a').item-link_logo.link(href="#")
 				+e('img').item-photo-image(src='/img/news_photo.jpg')
 			+b('h3').h3.news__item-title Выставка  &laquo;Ярмарка недвижимости&raquo;
 			+e.item-date 10 ноября 2016

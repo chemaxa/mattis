@@ -17,7 +17,7 @@ var params = {
     blocks: 'common.blocks',
     jsSrc: 'js',
     cssDst: 'css',
-    buildDst: ['.', '']
+    buildDst: ['build', '.']
 };
 
 // Default Task
@@ -55,7 +55,7 @@ gulp.task('watch', ['sass', 'jade', 'server'], function() {
 
 // Sass Complie Task
 gulp.task('sass', function() {
-    gulp.src([params.sassSrc + '/main.sass'])
+    gulp.src([params.sassSrc + '/' + params.currentFile + '.sass', params.sassSrc + '/main.sass'])
         //.pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(postcss([autoprefixer({

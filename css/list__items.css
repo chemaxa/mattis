@@ -1,0 +1,99 @@
+/*Service & variables, headings styles*/
+/*Colors*/
+*,
+*:after,
+*:before{
+  box-sizing: border-box;
+}
+
+.inline-block,
+.text__content_inlined{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.clearfix:after{
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/*System Blocks styles*/
+.text_centered{
+  margin: 0 auto;
+  width: 960px;
+}
+
+.text__wrapper{
+  background: url(../img/offers_bg.png);
+  position: relative;
+}
+
+.text__title{
+  border-left: 3px solid #2c932c;
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+
+.text__content a:visited{
+  color: #3b66a3;
+}
+
+.text__content_inlined{
+  max-width: 720px;
+}
+
+.content_backgrounded{
+  background: url(../img/offers_bg.png);
+  padding: 30px 0 40px;
+}
+
+.pagination{
+  width: 100%;
+  text-align: center;
+}
+.pagination__border{
+  border-top: 1px solid #cccccc;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30%;
+}
+.pagination__list{
+  max-width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.pagination__item{
+  display: inline-block;
+  margin-right: 10px;
+}
+.pagination__item-link{
+  color: #ffffff;
+  padding: 7px;
+  background-color: #929292;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+}
+.pagination__item-link_active{
+  background-color: #ffffff;
+  border: 1px solid #929292;
+  color: #929292;
+}
+.pagination_margined{
+  margin: 30px 0;
+}
+
+.breadcrumbs{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumbs__item{
+  display: inline-block;
+}

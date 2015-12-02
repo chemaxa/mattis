@@ -1,0 +1,32 @@
+.pagination
+	width: 100%
+	text-align: center
+
+	&__border
+		border-top: 1px solid $pagination-border-bg
+		display: inline-block
+		vertical-align: middle
+		width: 30%
+	&__list
+		max-width: 30%
+		display: inline-block
+		vertical-align: top
+		list-style-type: none
+		padding: 0
+		margin: 0
+		text-align: center
+	&__item
+		display: inline-block
+		margin-right: 10px
+	&__item-link
+		color: #fff
+		padding: 7px
+		background-color:  $pagination-bg
+		text-decoration: none
+		border: 1px solid #fff
+		&_active
+			background-color: #FFF
+			border: 1px solid  $pagination-bg
+			color: $pagination-bg
+	&_margined
+		margin: 30px 0
