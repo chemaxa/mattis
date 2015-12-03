@@ -11,7 +11,7 @@ var gulp = require('gulp'),
 
 // Params
 var params = {
-    currentFile: 'index',
+    currentFile: 'item__card',
     jadeSrc: 'jade',
     sassSrc: 'sass',
     blocks: 'common.blocks',

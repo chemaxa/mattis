@@ -1,0 +1,35 @@
+include mixins/bemto
+doctype html
+html(lang='ru').html
+	include ../common.blocks/head.jade
+	link(rel="stylesheet", href="css/item__card.css")
+	script(src='js/jquery.cycle2.carousel.min.js')
+	+b('body').page
+		+e('header').header
+			.grid__wrapper
+				include ../common.blocks/logo/logo
+				include ../common.blocks/phone/phone
+				include ../common.blocks/consultant/consultant
+			include ../common.blocks/menu/top/menu
+			.object__wrapper
+				.grid__wrapper
+					include ../common.blocks/breadcrumbs/breadcrumbs		
+					include ../common.blocks/object/object
+					include ../common.blocks/text/text
+			.object__bottomline
+		.features__wrapper
+			include ../common.blocks/features/features
+		+e('footer').footer
+			+b.grid__wrapper
+				+b.grid__row
+					+b.grid__col-4
+						+b.copyright
+							+e.text_light
+								|© 2015 Маттис — агентство недвижимости
+						include ../common.blocks/soclinks/soclinks
+						+b.copyright
+							+e.text_gray Разработка сайта
+							+e('img').image(src='/img/logo_webdom.png')
+					+b.grid__col-8
+						include ../common.blocks/menu/bottom/menu
+						+b('a').button_bid._bottom._floated(href="") Оставить заявку
