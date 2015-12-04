@@ -25,41 +25,24 @@ $(function() {
             $('.gallery__item').height(maxHeight);
         });
     }
+
     if ($('.object__slider').length) {
-        $('.object__slider').cycle({
-            //slides: ".slider__item",
-            //overlayFxSel: ">div",
-            fx: "scrollHorz",
-            timeout: "999999",
-            //pagerTemplate: "<a href='{{src}}' class='link object__slider-pagination-item-link slider__pagination-item-link_bordered'><img class='object__slider-pagination-item-image' src='{{src}}'></a>",
-            //pager: ".object__slider-pagination-list",
-            //prev: ".object__slider-button_prev",
-            //next: ".object__slider-button_next",
-            centerHorz: true,
-            log: false
+        var step = $('.object__slider-pagination-list img').outerWidth(true),
+            length = $('.object__slider-pagination-list img').length; //include margin
+
+        $('.object__slider-pagination-list img').click(function() {
+            $('.object__slider img').attr('src', this.src);
+        });
+        $('.object__slider-button_next').click(function(e) {
+            var currentStep = parseInt($('.object__slider-pagination-list').css('right')) || 0;
+            if (currentStep >= (Math.floor(length / 2)) * step) return;
+            $('.object__slider-pagination-list').css('right', currentStep + step);
+        });
+        $('.object__slider-button_prev').click(function(e) {
+            var currentStep = parseInt($('.object__slider-pagination-list').css('right')) || 0;
+            if (currentStep <= 0) return;
+            $('.object__slider-pagination-list').css('right', currentStep - step);
         });
     }
-    setTimeout(startCarousel, 5000);
-    //startCarousel();
-
-    function startCarousel() {
-        if ($('.object__slider-pagination-list').length) {
-            $('.object__slider-pagination-list').cycle({
-                slides: ".object__slider-pagination-item-link",
-                //overlayFxSel: ">div",
-                fx: "carousel",
-                timeout: "999999",
-                //pagerTemplate: "<a href='{{src}}' class='link object__slider-pagination-item-link slider__pagination-item-link_bordered'><img class='object__slider-pagination-item-image' src='{{src}}'></a>",
-                //pager: ".object__slider-pagination-list",
-                prev: ".object__slider-button_prev",
-                next: ".object__slider-button_next",
-                carouselVisible: 3,
-                carouselFluid: true,
-                allowWrap: true,
-                log: true
-            });
-        }
-    }
-
 
 });

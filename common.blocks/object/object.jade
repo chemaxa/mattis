@@ -3,31 +3,30 @@
 	+e.col_left
 		+e.slider._bordered
 			+e('img').item-image(src="/img/object__full-photo_1.jpg")
-			+e('img').item-image(src="/img/object__full-photo_2.jpg")
-			+e('img').item-image(src="/img/object__full-photo_3.jpg")
-			+e('img').item-image(src="/img/object__full-photo_4.jpg")
-			+e('img').item-image(src="/img/object__full-photo_5.jpg")
+			//- +e('img').item-image(src="/img/object__full-photo_2.jpg")
+			//- +e('img').item-image(src="/img/object__full-photo_3.jpg")
+			//- +e('img').item-image(src="/img/object__full-photo_4.jpg")
+			//- +e('img').item-image(src="/img/object__full-photo_5.jpg")
 		+e.info.clearfix			
 			+e.cost 19 500 000 руб.
 			+b('a').button_bid._inlined._floated.object__button(href="#") Оставить заявку
 		+e.border_bottom
 	+e.col_right
 		+e.slider-pagination
-			//- +e.slider-pagination-list.cycle-slideshow(data-cycle-fx="carousel" data-cycle-slides=".object__slider-pagination-item-link" data-cycle-timeout="0" data-cycle-prev=".object__slider-button_prev"  data-cycle-next=".object__slider-button_prev" data-cycle-carousel-visible="3" data-cycle-carousel-fluid="true" data-allow-wrap="false")
 			+e.slider-pagination-list
-				+e('a').slider-pagination-item-link._bordered.link(href='#')
-					+e('img').slider-pager-item._bordered(src="/img/object__full-photo_1.jpg")
-				+e('a').slider-pagination-item-link._bordered.link(href='#')				
-					+e('img').slider-pager-item._bordered(src="/img/object__full-photo_2.jpg")
-				+e('a').slider-pagination-item-link._bordered.link(href='#')
-					+e('img').slider-pager-item._bordered(src="/img/object__full-photo_3.jpg")
-				+e('a').slider-pagination-item-link._bordered.link(href='#')
-					+e('img').slider-pager-item._bordered(src="/img/object__full-photo_4.jpg")
-				+e('a').slider-pagination-item-link._bordered.link(href='#')
-					+e('img').slider-pager-item._bordered(src="/img/object__full-photo_5.jpg")
-			+e.slider-buttons
-				+e('span').slider-button_prev
-				+e('span').slider-button_next
+				//- +e('li').slider-pagination-item
+				+e('img').slider-pagination-item-image._bordered(src="/img/object__full-photo_1.jpg")
+				//- +e('li').slider-pagination-item
+				+e('img').slider-pagination-item-image._bordered(src="/img/object__full-photo_2.jpg")
+				//- +e('li').slider-pagination-item
+				+e('img').slider-pagination-item-image._bordered(src="/img/object__full-photo_3.jpg")
+				//- +e('li').slider-pagination-item
+				+e('img').slider-pagination-item-image._bordered(src="/img/object__full-photo_4.jpg")
+				//- +e('li').slider-pagination-item
+				+e('img').slider-pagination-item-image._bordered(src="/img/object__full-photo_5.jpg")
+		+e.slider-buttons
+			+e('span').slider-button_prev
+			+e('span').slider-button_next
 		+e('table').description-list
 			+e('tr').description-row
 				+e('td').description-item Номер объекта
