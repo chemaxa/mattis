@@ -23,6 +23,10 @@
   color: #3b66a3;
 }
 
+.button{
+  border: none;
+  outline: none;
+}
 .button_bid{
   text-decoration: none;
   color: #ffffff;
@@ -33,21 +37,17 @@
 .button_bid:hover{
   background-color: #035c03;
 }
-
 .button_bottom{
   margin-top: 40px;
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .button_floated{
   float: right;
 }
-
 .button_blocked{
   display: block;
 }
-
 .button_sidebar{
   margin: 30px 0;
 }

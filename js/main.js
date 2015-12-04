@@ -1,4 +1,5 @@
 $(function() {
+    //Main Page slider
     if ($('#js-slider').length) {
         $('#js-slider').cycle({
             slides: ".slider__item",
@@ -14,7 +15,7 @@ $(function() {
             log: false
         });
     }
-
+    // Main Page Gallery height
     if ($('.gallery').length) {
         $(window).load(function() {
             var maxHeight = 0;
@@ -25,7 +26,7 @@ $(function() {
             $('.gallery__item').height(maxHeight);
         });
     }
-
+    // Slider on item page
     if ($('.object__slider').length) {
         var step = $('.object__slider-pagination-list img').outerWidth(true),
             length = $('.object__slider-pagination-list img').length; //include margin

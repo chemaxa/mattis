@@ -3,7 +3,6 @@ doctype html
 html(lang='ru').html
 	include ../common.blocks/head.jade
 	link(rel="stylesheet", href="css/item__card.css")
-	script(src='js/jquery.cycle2.carousel.min.js')
 	+b('body').page
 		+e('header').header
 			.grid__wrapper
@@ -11,12 +10,15 @@ html(lang='ru').html
 				include ../common.blocks/phone/phone
 				include ../common.blocks/consultant/consultant
 			include ../common.blocks/menu/top/menu
-			.object__wrapper
-				.grid__wrapper
-					include ../common.blocks/breadcrumbs/breadcrumbs		
-					include ../common.blocks/object/object
-					include ../common.blocks/text/text
-			.object__bottomline
+		.object__wrapper
+			.grid__wrapper
+				include ../common.blocks/breadcrumbs/breadcrumbs		
+				include ../common.blocks/object/object
+				include ../common.blocks/text/text
+				include ../common.blocks/map/map
+			.form__topline
+		.grid__wrapper
+			include ../common.blocks/form/form
 		.features__wrapper
 			include ../common.blocks/features/features
 		+e('footer').footer
