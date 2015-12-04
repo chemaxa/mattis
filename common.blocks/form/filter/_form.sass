@@ -1,0 +1,60 @@
+.form
+	&_filter
+		background-color: #FFF
+		max-width: 226px
+		padding: 20px
+
+	&_bordered
+		box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.25)
+		border: 1px solid $gallery-items-border
+
+	&__title
+		&_filter
+			font-size: 1.4rem
+			font-weight: 500
+			text-align: center
+			margin: 0
+	&__metro-link,&__district-link
+		text-decoration: none
+		@extend .inline-block
+		border-bottom: 1px dashed $links-color
+	&__metro-link
+		margin-bottom: 10px
+	
+	&__input
+		cursor: pointer
+		&_price-from,&_price-to
+			font-size: 1rem
+			padding: 5px
+			max-width: 100px
+			margin: 0 3px
+		&_price-to
+			margin-top: 5px
+	
+	&__label
+		cursor: pointer
+		margin-right: 4px
+		&_price-to,&_price-from
+			margin-right: 0
+	
+	&__extended-search-link
+		float: right
+		padding: 15px 0 0
+	
+	&__radiobox
+		margin-right: 5px
+	
+	&__checkbox
+		margin-right: 5px
+
+	&__radiobox-group,&__checkbox-group
+		margin: 20px 0
+	
+	&__price-group
+		&_right			
+			text-align: right
+
+	&__slider
+		margin: 15px 0
+		border: 1px solid $gray
+		text-align: center

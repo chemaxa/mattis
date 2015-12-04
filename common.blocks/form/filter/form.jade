@@ -1,0 +1,38 @@
++b('form').form_filter._bordered.clearfix
+	+e.title_filter Параметры
+	+e.radiobox-group
+		+e('label').label
+			+e('input').radiobox(type='radio', name="radio")
+			| Комната
+		+e('label').label
+			+e('input').radiobox(type='radio', name="radio")
+			| Квартира
+	+e('a').metro-link.link(href="#") Выбрать метро
+	br
+	+e('a').district-link.link(href="#") Выбрать район
+	+e.checkbox-group
+		+e('label').label
+			+e('input').checkbox(type="checkbox")
+			| 1
+		+e('label').label
+			+e('input').checkbox(type="checkbox")
+			| 2
+		+e('label').label
+			+e('input').checkbox(type="checkbox")
+			| 3
+		+e('label').label
+			+e('input').checkbox(type="checkbox")
+			| 4+
+		| комнат
+	+e.price-group_right
+		+e('label').label_price-from
+			|Цена от 
+			+e('input').input_price-from
+			| руб.
+		+e('label').label_price-to
+			|до
+			+e('input').input_price-to
+			| руб.
+	+e.slider СЛАЙДЕР 
+	+e('button').button.button_filter.button Подобрать
+	+e('a').extended-search-link.link(href="#") Расширенный поиск &raquo;
